@@ -1,4 +1,5 @@
 -- gui made by Nexity
+-- Roblox Engine is doomed -Itzbenz
 
 local allhacks = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
