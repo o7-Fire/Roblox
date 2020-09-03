@@ -1,7 +1,7 @@
-controls - press C to toggle free cam from on and off and scroll wheel too for some extra surprise
+--controls - press C to toggle free cam from on and off and scroll wheel too for some extra surprise
 
 
-script - -- by slice
+--script - -- by slice
 
 ToggleKey = Enum.KeyCode.C
 SprintKey = Enum.KeyCode.Tab
