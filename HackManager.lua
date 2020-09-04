@@ -9,31 +9,43 @@ local bar = Instance.new("Frame")
 local title = Instance.new("TextLabel")
 local title_2 = Instance.new("TextLabel")
 local TextButton = Instance.new("TextButton")
+
 local nongui = Instance.new("Frame")
 local ngtext = Instance.new("TextLabel")
+
 local armoredpatrol = Instance.new("TextButton")
 local aptext = Instance.new("TextLabel")
-local lt = Instance.new("TextLabel")
-local legit = Instance.new("TextButton")
+
+local chatbypass = Instance.new("TextButton")
+local cbtext = Instance.new("TextLabel")
+
 local esp = Instance.new("Frame")
 local et = Instance.new("TextLabel")
+
 local cham = Instance.new("TextButton")
 local ct = Instance.new("TextLabel")
+
 local tt = Instance.new("TextLabel")
 local trace = Instance.new("TextButton")
+
 local bet = Instance.new("TextLabel")
 local boxesp = Instance.new("TextButton")
+
 local miscs = Instance.new("Frame")
 local mt = Instance.new("TextLabel")
 local infammo = Instance.new("TextButton")
+
 local sst = Instance.new("TextLabel")
 local speed = Instance.new("TextButton")
+
 local misc2 = Instance.new("Frame")
 local thing = Instance.new("Frame")
 local nst = Instance.new("TextLabel")
 local spread = Instance.new("TextButton")
+
 local recoil = Instance.new("TextButton")
 local nrt = Instance.new("TextLabel")
+
 local iat = Instance.new("TextLabel")
 local mt_2 = Instance.new("TextLabel")
 local mt_3 = Instance.new("TextLabel")
@@ -138,28 +150,28 @@ aptext.Text = "Armored Patrol"
 aptext.TextColor3 = Color3.new(1, 1, 1)
 aptext.TextSize = 12
 
-lt.Name = "lt"
-lt.Parent = aimbot
-lt.BackgroundColor3 = Color3.new(1, 1, 1)
-lt.BackgroundTransparency = 1
-lt.Position = UDim2.new(0.268361211, 0, 0.583823442, 0)
-lt.Size = UDim2.new(0, 85, 0, 18)
-lt.Font = Enum.Font.Gotham
-lt.Text = "Legit Aimbot"
-lt.TextColor3 = Color3.new(1, 1, 1)
-lt.TextSize = 12
+cbtext.Name = "CBText"
+cbtext.Parent = nongui
+cbtext.BackgroundColor3 = Color3.new(1, 1, 1)
+cbtext.BackgroundTransparency = 1
+cbtext.Position = UDim2.new(0.268361211, 0, 0.583823442, 0)
+cbtext.Size = UDim2.new(0, 85, 0, 18)
+cbtext.Font = Enum.Font.Gotham
+cbtext.Text = "Chat Bypasser"
+cbtext.TextColor3 = Color3.new(1, 1, 1)
+cbtext.TextSize = 12
 
-legit.Name = "legit"
-legit.Parent = aimbot
-legit.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
-legit.BorderColor3 = Color3.new(1, 1, 1)
-legit.Position = UDim2.new(0.100628927, 0, 0.587499976, 0)
-legit.Size = UDim2.new(0, 18, 0, 18)
-legit.AutoButtonColor = false
-legit.Font = Enum.Font.SourceSans
-legit.Text = ""
-legit.TextColor3 = Color3.new(0, 0, 0)
-legit.TextSize = 14
+chatbypass.Name = "ChatBypass"
+chatbypass.Parent = nongui
+chatbypass.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+chatbypass.BorderColor3 = Color3.new(1, 1, 1)
+chatbypass.Position = UDim2.new(0.100628927, 0, 0.587499976, 0)
+chatbypass.Size = UDim2.new(0, 18, 0, 18)
+chatbypass.AutoButtonColor = false
+chatbypass.Font = Enum.Font.SourceSans
+chatbypass.Text = ""
+chatbypass.TextColor3 = Color3.new(0, 0, 0)
+chatbypass.TextSize = 14
 
 esp.Name = "esp"
 esp.Parent = main
@@ -411,8 +423,8 @@ mt_4.TextWrapped = true
 armoredpatrol.MouseButton1Down:connect(function()
 	 loadstring(game:HttpGet("https://raw.githubusercontent.com/machport/machport.github.io/master/ArmoredPatrol.lua"))()
 end)
-legit.MouseButton1Down:connect(function()
-	 newtween(legit,{BackgroundColor3 = Color3.fromRGB(255,255,255)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
+chatbypass.MouseButton1Down:connect(function()
+	 loadstring(game:HttpGet("https://pastebin.com/raw/JFeVbTv6", true))()
 end)
 boxesp.MouseButton1Down:connect(function()
 	 newtween(boxesp,{BackgroundColor3 = Color3.fromRGB(255,255,255)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
