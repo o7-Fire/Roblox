@@ -11,7 +11,7 @@ local title_2 = Instance.new("TextLabel")
 local TextButton = Instance.new("TextButton")
 local aimbot = Instance.new("Frame")
 local at = Instance.new("TextLabel")
-local rage = Instance.new("TextButton")
+local armoredpatrol = Instance.new("TextButton")
 local rt = Instance.new("TextLabel")
 local lt = Instance.new("TextLabel")
 local legit = Instance.new("TextButton")
@@ -97,7 +97,7 @@ TextButton.TextColor3 = Color3.new(1, 1, 1)
 TextButton.TextSize = 17
 TextButton.TextWrapped = true
 
-aimbot.Name = "aimbot"
+aimbot.Name = "Epic"
 aimbot.Parent = main
 aimbot.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
 aimbot.BorderColor3 = Color3.new(1, 1, 1)
@@ -115,17 +115,17 @@ at.Text = "Aimbot"
 at.TextColor3 = Color3.new(1, 1, 1)
 at.TextSize = 14
 
-rage.Name = "rage"
-rage.Parent = aimbot
-rage.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
-rage.BorderColor3 = Color3.new(1, 1, 1)
-rage.Position = UDim2.new(0.100628927, 0, 0.212499976, 0)
-rage.Size = UDim2.new(0, 18, 0, 18)
-rage.AutoButtonColor = false
-rage.Font = Enum.Font.SourceSans
-rage.Text = ""
-rage.TextColor3 = Color3.new(0, 0, 0)
-rage.TextSize = 14
+armoredpatrol.Name = "Armored Patrol"
+armoredpatrol.Parent = aimbot
+armoredpatrol.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+armoredpatrol.BorderColor3 = Color3.new(1, 1, 1)
+armoredpatrol.Position = UDim2.new(0.100628927, 0, 0.212499976, 0)
+armoredpatrol.Size = UDim2.new(0, 18, 0, 18)
+armoredpatrol.AutoButtonColor = false
+armoredpatrol.Font = Enum.Font.SourceSans
+armoredpatrol.Text = ""
+armoredpatrol.TextColor3 = Color3.new(0, 0, 0)
+armoredpatrol.TextSize = 14
 
 rt.Name = "rt"
 rt.Parent = aimbot
@@ -408,8 +408,8 @@ mt_4.TextColor3 = Color3.new(0.72549, 1, 0.737255)
 mt_4.TextSize = 10
 mt_4.TextWrapped = true
 
-rage.MouseButton1Down:connect(function()
-	 newtween(rage,{BackgroundColor3 = Color3.fromRGB(255,255,255)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
+armoredpatrol.MouseButton1Down:connect(function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/machport/machport.github.io/master/ArmoredPatrol.lua"))()
 end)
 legit.MouseButton1Down:connect(function()
 	 newtween(legit,{BackgroundColor3 = Color3.fromRGB(255,255,255)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
