@@ -123,7 +123,7 @@ armoredpatrol.Position = UDim2.new(0.100628927, 0, 0.212499976, 0)
 armoredpatrol.Size = UDim2.new(0, 18, 0, 18)
 armoredpatrol.AutoButtonColor = false
 armoredpatrol.Font = Enum.Font.SourceSans
-armoredpatrol.Text = ""
+armoredpatrol.Text = "Armored Patrol"
 armoredpatrol.TextColor3 = Color3.new(0, 0, 0)
 armoredpatrol.TextSize = 14
 
