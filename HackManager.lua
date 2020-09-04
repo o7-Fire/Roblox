@@ -123,13 +123,13 @@ armoredpatrol.Position = UDim2.new(0.100628927, 0, 0.212499976, 0)
 armoredpatrol.Size = UDim2.new(0, 18, 0, 18)
 armoredpatrol.AutoButtonColor = false
 armoredpatrol.Font = Enum.Font.SourceSans
-armoredpatrol.Text = "Armored Patrol"
+armoredpatrol.Text = ""
 armoredpatrol.TextColor3 = Color3.new(0, 0, 0)
 armoredpatrol.TextSize = 14
 
-aptextrt.Name = "APText"
+aptext.Name = "APText"
 aptext.Parent = nongui
-rt.BackgroundColor3 = Color3.new(1, 1, 1)
+aptext.BackgroundColor3 = Color3.new(1, 1, 1)
 aptext.BackgroundTransparency = 1
 aptext.Position = UDim2.new(0.268361211, 0, 0.208823398, 0)
 aptext.Size = UDim2.new(0, 85, 0, 18)
