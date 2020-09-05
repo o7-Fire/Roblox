@@ -11,4 +11,4 @@
 * loadstring(game:HttpGet("'https://raw.githubusercontent.com/o7-Fire/Roblox/master/HackManager.lua", true))()
 # Disclaimer
 
-* Some of the code may be not owned by us
+* Some of the code may be not owned by o7
