@@ -1,6 +1,3 @@
-# ScriptsPack
-
-* Many script frakensteined together to work
 
 
 # Usage
