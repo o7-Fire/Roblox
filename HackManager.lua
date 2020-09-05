@@ -1,3 +1,4 @@
+
 -- gui made by Nexity
 -- Roblox Engine is doomed -Itzbenz
 
@@ -25,11 +26,11 @@ local et = Instance.new("TextLabel")
 local cham = Instance.new("TextButton")
 local ct = Instance.new("TextLabel")
 
-local tt = Instance.new("TextLabel")
-local trace = Instance.new("TextButton")
+local ogtext10 = Instance.new("TextLabel")
+local opengift10 = Instance.new("TextButton")
 
-local bet = Instance.new("TextLabel")
-local boxesp = Instance.new("TextButton")
+local ogtext = Instance.new("TextLabel")
+local opengift = Instance.new("TextButton")
 
 local miscs = Instance.new("Frame")
 local mt = Instance.new("TextLabel")
@@ -214,51 +215,51 @@ ct.Text = "Chams"
 ct.TextColor3 = Color3.new(1, 1, 1)
 ct.TextSize = 12
 
-tt.Name = "tt"
-tt.Parent = esp
-tt.BackgroundColor3 = Color3.new(1, 1, 1)
-tt.BackgroundTransparency = 1
-tt.Position = UDim2.new(0.268361211, 0, 0.42641589, 0)
-tt.Size = UDim2.new(0, 49, 0, 18)
-tt.Font = Enum.Font.Gotham
-tt.Text = "Tracers"
-tt.TextColor3 = Color3.new(1, 1, 1)
-tt.TextSize = 12
+ogtext10.Name = "ogtext10"
+ogtext10.Parent = esp
+ogtext10.BackgroundColor3 = Color3.new(1, 1, 1)
+ogtext10.BackgroundTransparency = 1
+ogtext10.Position = UDim2.new(0.268361211, 0, 0.42641589, 0)
+ogtext10.Size = UDim2.new(0, 49, 0, 18)
+ogtext10.Font = Enum.Font.Gotham
+ogtext10.Text = "Open Gift x10"
+ogtext10.TextColor3 = Color3.new(1, 1, 1)
+ogtext10.TextSize = 12
 
-trace.Name = "trace"
-trace.Parent = esp
-trace.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
-trace.BorderColor3 = Color3.new(1, 1, 1)
-trace.Position = UDim2.new(0.100628927, 0, 0.430092573, 0)
-trace.Size = UDim2.new(0, 18, 0, 18)
-trace.AutoButtonColor = false
-trace.Font = Enum.Font.SourceSans
-trace.Text = ""
-trace.TextColor3 = Color3.new(0, 0, 0)
-trace.TextSize = 14
+opengift10.Name = "opengift10"
+opengift10.Parent = esp
+opengift10.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+opengift10.BorderColor3 = Color3.new(1, 1, 1)
+opengift10.Position = UDim2.new(0.100628927, 0, 0.430092573, 0)
+opengift10.Size = UDim2.new(0, 18, 0, 18)
+opengift10.AutoButtonColor = false
+opengift10.Font = Enum.Font.SourceSans
+opengift10.Text = ""
+opengift10.TextColor3 = Color3.new(0, 0, 0)
+opengift10.TextSize = 14
 
-bet.Name = "bet"
-bet.Parent = esp
-bet.BackgroundColor3 = Color3.new(1, 1, 1)
-bet.BackgroundTransparency = 1
-bet.Position = UDim2.new(0.268361211, 0, 0.694934428, 0)
-bet.Size = UDim2.new(0, 57, 0, 18)
-bet.Font = Enum.Font.Gotham
-bet.Text = "Box Esp"
-bet.TextColor3 = Color3.new(1, 1, 1)
-bet.TextSize = 12
+ogtext.Name = "ogtext"
+ogtext.Parent = esp
+ogtext.BackgroundColor3 = Color3.new(1, 1, 1)
+ogtext.BackgroundTransparency = 1
+ogtext.Position = UDim2.new(0.268361211, 0, 0.694934428, 0)
+ogtext.Size = UDim2.new(0, 57, 0, 18)
+ogtext.Font = Enum.Font.Gotham
+ogtext.Text = "Open Gift"
+ogtext.TextColor3 = Color3.new(1, 1, 1)
+ogtext.TextSize = 12
 
-boxesp.Name = "boxesp"
-boxesp.Parent = esp
-boxesp.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
-boxesp.BorderColor3 = Color3.new(1, 1, 1)
-boxesp.Position = UDim2.new(0.100628927, 0, 0.698611081, 0)
-boxesp.Size = UDim2.new(0, 18, 0, 18)
-boxesp.AutoButtonColor = false
-boxesp.Font = Enum.Font.SourceSans
-boxesp.Text = ""
-boxesp.TextColor3 = Color3.new(0, 0, 0)
-boxesp.TextSize = 14
+opengift.Name = "opengift"
+opengift.Parent = esp
+opengift.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+opengift.BorderColor3 = Color3.new(1, 1, 1)
+opengift.Position = UDim2.new(0.100628927, 0, 0.698611081, 0)
+opengift.Size = UDim2.new(0, 18, 0, 18)
+opengift.AutoButtonColor = false
+opengift.Font = Enum.Font.SourceSans
+opengift.Text = ""
+opengift.TextColor3 = Color3.new(0, 0, 0)
+opengift.TextSize = 14
 
 miscs.Name = "miscs"
 miscs.Parent = main
@@ -426,11 +427,15 @@ end)
 chatbypass.MouseButton1Down:connect(function()
 	 loadstring(game:HttpGet("https://pastebin.com/raw/JFeVbTv6", true))()
 end)
-boxesp.MouseButton1Down:connect(function()
-	 newtween(boxesp,{BackgroundColor3 = Color3.fromRGB(255,255,255)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
+opengift.MouseButton1Down:connect(function()
+    local Remote = game.ReplicatedStorage.Resources.Remotes['Gift']
+    Remote:InvokeServer("MrBlobFish13")
 end)
-trace.MouseButton1Down:connect(function()
-	 newtween(trace,{BackgroundColor3 = Color3.fromRGB(255,255,255)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
+opengift10.MouseButton1Down:connect(function()
+for count = 1, 10 do
+local Remote = game.ReplicatedStorage.Resources.Remotes['Gift']
+Remote:InvokeServer("MrBlobFish13")
+end
 end)
 cham.MouseButton1Down:connect(function()
 	 newtween(cham,{BackgroundColor3 = Color3.fromRGB(255,255,255)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
@@ -501,3 +506,4 @@ end)
 speed.MouseLeave:connect(function()
 	 newtween(speed,{BackgroundColor3 = Color3.fromRGB(35,35,35)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
 end)
+
