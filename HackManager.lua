@@ -465,7 +465,7 @@ trace.MouseEnter:connect(function()
 	 newtween(trace,{BackgroundColor3 = Color3.fromRGB(30,30,30)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
 end)
 fullbright.MouseEnter:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/o7-Fire/Roblox/master/fullbright"))()
+	loadstring(game:HttpGet("https://pastebin.com/raw/6GrAQY9r"))()
 end)
 infammo.MouseEnter:connect(function()
 	 newtween(infammo,{BackgroundColor3 = Color3.fromRGB(30,30,30)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
