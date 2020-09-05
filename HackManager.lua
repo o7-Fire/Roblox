@@ -443,67 +443,13 @@ end)
 infammo.MouseButton1Down:connect(function()
 	 newtween(infammo,{BackgroundColor3 = Color3.fromRGB(255,255,255)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
 end)
-recoil.MouseButton1Down:connect(function()
-	 newtween(recoil,{BackgroundColor3 = Color3.fromRGB(255,255,255)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
-end)
-spread.MouseButton1Down:connect(function()
-	 newtween(spread,{BackgroundColor3 = Color3.fromRGB(255,255,255)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
-end)
 speed.MouseButton1Down:connect(function()
 	 newtween(speed,{BackgroundColor3 = Color3.fromRGB(255,255,255)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
 end)
-rage.MouseEnter:connect(function()
-	 newtween(rage,{BackgroundColor3 = Color3.fromRGB(30,30,30)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
-end)
-legit.MouseEnter:connect(function()
-	 newtween(legit,{BackgroundColor3 = Color3.fromRGB(30,30,30)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
-end)
-boxesp.MouseEnter:connect(function()
-	 newtween(boxesp,{BackgroundColor3 = Color3.fromRGB(30,30,30)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
-end)
-trace.MouseEnter:connect(function()
-	 newtween(trace,{BackgroundColor3 = Color3.fromRGB(30,30,30)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
-end)
-fullbright.MouseEnter:connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/6GrAQY9r"))()
-end)
-infammo.MouseEnter:connect(function()
-	 newtween(infammo,{BackgroundColor3 = Color3.fromRGB(30,30,30)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
-end)
-aimbot.MouseEnter:connect(function()
+aimbot.MouseButton1Down:connect(function()
 	 loadstring(game:HttpGet("https://pastebin.com/raw/uw2P2fbY", true))()
 end)
-reviz.MouseEnter:connect(function()
+reviz.MouseButton1Down:connect(function()
 	 loadstring(game:HttpGet("https://pastebin.com/raw/KNUzQPYS", true))()
-end)
-speed.MouseEnter:connect(function()
-	 newtween(speed,{BackgroundColor3 = Color3.fromRGB(30,30,30)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
-end)
-rage.MouseLeave:connect(function()
-	 newtween(rage,{BackgroundColor3 = Color3.fromRGB(35,35,35)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
-end)
-legit.MouseLeave:connect(function()
-	 newtween(legit,{BackgroundColor3 = Color3.fromRGB(35,35,35)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
-end)
-boxesp.MouseLeave:connect(function()
-	 newtween(boxesp,{BackgroundColor3 = Color3.fromRGB(35,35,35)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
-end)
-trace.MouseLeave:connect(function()
-	 newtween(trace,{BackgroundColor3 = Color3.fromRGB(35,35,35)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
-end)
-cham.MouseLeave:connect(function()
-	 newtween(cham,{BackgroundColor3 = Color3.fromRGB(35,35,35)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
-end)
-infammo.MouseLeave:connect(function()
-	 newtween(infammo,{BackgroundColor3 = Color3.fromRGB(35,35,35)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
-end)
-recoil.MouseLeave:connect(function()
-	 newtween(recoil,{BackgroundColor3 = Color3.fromRGB(35,35,35)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
-end)
-spread.MouseLeave:connect(function()
-	 newtween(spread,{BackgroundColor3 = Color3.fromRGB(35,35,35)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
-end)
-speed.MouseLeave:connect(function()
-	 newtween(speed,{BackgroundColor3 = Color3.fromRGB(35,35,35)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
 end)
 
