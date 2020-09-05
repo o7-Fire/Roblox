@@ -1,3 +1,5 @@
+--but why 
+
 local FullBrightBySirrVindict1234 = Instance.new("ScreenGui")
 local Screen = Instance.new("Frame")
 local Background = Instance.new("ImageLabel")
