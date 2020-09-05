@@ -23,8 +23,8 @@ local cbtext = Instance.new("TextLabel")
 local esp = Instance.new("Frame")
 local et = Instance.new("TextLabel")
 
-local cham = Instance.new("TextButton")
-local ct = Instance.new("TextLabel")
+local fullbright = Instance.new("TextButton")
+local fbtext = Instance.new("TextLabel")
 
 local ogtext10 = Instance.new("TextLabel")
 local opengift10 = Instance.new("TextButton")
@@ -192,28 +192,28 @@ et.Text = "ESP"
 et.TextColor3 = Color3.new(1, 1, 1)
 et.TextSize = 14
 
-cham.Name = "cham"
-cham.Parent = esp
-cham.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
-cham.BorderColor3 = Color3.new(1, 1, 1)
-cham.Position = UDim2.new(0.100628927, 0, 0.156944424, 0)
-cham.Size = UDim2.new(0, 18, 0, 18)
-cham.AutoButtonColor = false
-cham.Font = Enum.Font.SourceSans
-cham.Text = ""
-cham.TextColor3 = Color3.new(0, 0, 0)
-cham.TextSize = 14
+fullbright.Name = "fullbright"
+fullbright.Parent = esp
+fullbright.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+fullbright.BorderColor3 = Color3.new(1, 1, 1)
+fullbright.Position = UDim2.new(0.100628927, 0, 0.156944424, 0)
+fullbright.Size = UDim2.new(0, 18, 0, 18)
+fullbright.AutoButtonColor = false
+fullbright.Font = Enum.Font.SourceSans
+fullbright.Text = ""
+fullbright.TextColor3 = Color3.new(0, 0, 0)
+fullbright.TextSize = 14
 
-ct.Name = "ct"
-ct.Parent = esp
-ct.BackgroundColor3 = Color3.new(1, 1, 1)
-ct.BackgroundTransparency = 1
-ct.Position = UDim2.new(0.268361211, 0, 0.153267756, 0)
-ct.Size = UDim2.new(0, 48, 0, 18)
-ct.Font = Enum.Font.Gotham
-ct.Text = "Chams"
-ct.TextColor3 = Color3.new(1, 1, 1)
-ct.TextSize = 12
+fbtext.Name = "ct"
+fbtext.Parent = esp
+fbtext.BackgroundColor3 = Color3.new(1, 1, 1)
+fbtext.BackgroundTransparency = 1
+fbtext.Position = UDim2.new(0.268361211, 0, 0.153267756, 0)
+fbtext.Size = UDim2.new(0, 48, 0, 18)
+fbtext.Font = Enum.Font.Gotham
+fbtext.Text = "Fullbright"
+fbtext.TextColor3 = Color3.new(1, 1, 1)
+fbtext.TextSize = 12
 
 ogtext10.Name = "ogtext10"
 ogtext10.Parent = esp
@@ -464,8 +464,8 @@ end)
 trace.MouseEnter:connect(function()
 	 newtween(trace,{BackgroundColor3 = Color3.fromRGB(30,30,30)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
 end)
-cham.MouseEnter:connect(function()
-	 newtween(cham,{BackgroundColor3 = Color3.fromRGB(30,30,30)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
+fullbright.MouseEnter:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/o7-Fire/Roblox/master/fullbright"))()
 end)
 infammo.MouseEnter:connect(function()
 	 newtween(infammo,{BackgroundColor3 = Color3.fromRGB(30,30,30)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
