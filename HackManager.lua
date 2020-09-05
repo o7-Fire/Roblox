@@ -437,12 +437,6 @@ local Remote = game.ReplicatedStorage.Resources.Remotes['Gift']
 Remote:InvokeServer("MrBlobFish13")
 end
 end)
-cham.MouseButton1Down:connect(function()
-	 newtween(cham,{BackgroundColor3 = Color3.fromRGB(255,255,255)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
-end)
-infammo.MouseButton1Down:connect(function()
-	 newtween(infammo,{BackgroundColor3 = Color3.fromRGB(255,255,255)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
-end)
 speed.MouseButton1Down:connect(function()
 	 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 32
 end)
@@ -451,5 +445,11 @@ aimbot.MouseButton1Down:connect(function()
 end)
 reviz.MouseButton1Down:connect(function()
 	 loadstring(game:HttpGet("https://pastebin.com/raw/KNUzQPYS", true))()
+end)
+cham.MouseButton1Down:connect(function()
+
+end)
+infammo.MouseButton1Down:connect(function()
+
 end)
 
