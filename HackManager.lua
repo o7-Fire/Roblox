@@ -429,12 +429,12 @@ chatbypass.MouseButton1Down:connect(function()
 end)
 opengift.MouseButton1Down:connect(function()
     local Remote = game.ReplicatedStorage.Resources.Remotes['Gift']
-    Remote:InvokeServer("MrBlobFish13")
+    Remote:InvokeServer(game.Players.LocalPlayer)
 end)
 opengift10.MouseButton1Down:connect(function()
 for count = 1, 10 do
 local Remote = game.ReplicatedStorage.Resources.Remotes['Gift']
-Remote:InvokeServer("MrBlobFish13")
+Remote:InvokeServer(game.Players.LocalPlayer)
 end
 end)
 speed.MouseButton1Down:connect(function()
