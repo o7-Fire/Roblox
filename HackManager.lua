@@ -421,11 +421,6 @@ mt_4.TextColor3 = Color3.new(0.72549, 1, 0.737255)
 mt_4.TextSize = 10
 mt_4.TextWrapped = true
 
-function opengift()
-local Remote = game.ReplicatedStorage.Resources.Remotes['Gift']
-Remote:InvokeServer(game.Players.LocalPlayer)
-end
-
 armoredpatrol.MouseButton1Down:connect(function()
 	 loadstring(game:HttpGet("https://raw.githubusercontent.com/machport/machport.github.io/master/ArmoredPatrol.lua"))()
 end)
@@ -437,16 +432,10 @@ opengift.MouseButton1Down:connect(function()
     Remote:InvokeServer(game.Players.LocalPlayer)
 end)
 opengift10.MouseButton1Down:connect(function()
-opengift()
-opengift()
-opengift()
-opengift()
-opengift()
-opengift()
-opengift()
-opengift()
-opengift()
-opengift()
+for count = 1, 10 do
+local Remote = game.ReplicatedStorage.Resources.Remotes['Gift']
+Remote:InvokeServer(game.Players.LocalPlayer)
+end
 end)
 speed.MouseButton1Down:connect(function()
 	 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 32
