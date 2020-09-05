@@ -211,7 +211,7 @@ fbtext.BackgroundTransparency = 1
 fbtext.Position = UDim2.new(0.268361211, 0, 0.153267756, 0)
 fbtext.Size = UDim2.new(0, 48, 0, 18)
 fbtext.Font = Enum.Font.Gotham
-fbtext.Text = "Fullbright"
+fbtext.Text = "Murder Mystery 2"
 fbtext.TextColor3 = Color3.new(1, 1, 1)
 fbtext.TextSize = 12
 
@@ -446,8 +446,8 @@ end)
 reviz.MouseButton1Down:connect(function()
 	 loadstring(game:HttpGet("https://pastebin.com/raw/KNUzQPYS", true))()
 end)
-cham.MouseButton1Down:connect(function()
-
+fullbright.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://paste.ee/r/NRfmI/0", true))()
 end)
 infammo.MouseButton1Down:connect(function()
 
