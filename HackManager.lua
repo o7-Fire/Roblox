@@ -41,11 +41,11 @@ local speed = Instance.new("TextButton")
 
 local misc2 = Instance.new("Frame")
 local thing = Instance.new("Frame")
-local nst = Instance.new("TextLabel")
-local spread = Instance.new("TextButton")
+local rtext = Instance.new("TextLabel")
+local reviz = Instance.new("TextButton")
 
-local recoil = Instance.new("TextButton")
-local nrt = Instance.new("TextLabel")
+local aimbot = Instance.new("TextButton")
+local atext = Instance.new("TextLabel")
 
 local iat = Instance.new("TextLabel")
 local mt_2 = Instance.new("TextLabel")
@@ -329,51 +329,51 @@ thing.BorderSizePixel = 0
 thing.Position = UDim2.new(-0.0801333487, 0, -0.105263129, 0)
 thing.Size = UDim2.new(0, 19, 0, 68)
 
-nst.Name = "nst"
-nst.Parent = miscs
-nst.BackgroundColor3 = Color3.new(1, 1, 1)
-nst.BackgroundTransparency = 1
-nst.Position = UDim2.new(1.16773224, 0, 0.333823413, 0)
-nst.Size = UDim2.new(0, 72, 0, 18)
-nst.Font = Enum.Font.Gotham
-nst.Text = "No Spread"
-nst.TextColor3 = Color3.new(1, 1, 1)
-nst.TextSize = 12
+rtext.Name = "rtext"
+rtext.Parent = miscs
+rtext.BackgroundColor3 = Color3.new(1, 1, 1)
+rtext.BackgroundTransparency = 1
+rtext.Position = UDim2.new(1.16773224, 0, 0.333823413, 0)
+rtext.Size = UDim2.new(0, 72, 0, 18)
+rtext.Font = Enum.Font.Gotham
+rtext.Text = "Reviz Admin"
+rtext.TextColor3 = Color3.new(1, 1, 1)
+rtext.TextSize = 12
 
-spread.Name = "spread"
-spread.Parent = miscs
-spread.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
-spread.BorderColor3 = Color3.new(1, 1, 1)
-spread.Position = UDim2.new(0.99999994, 0, 0.337500006, 0)
-spread.Size = UDim2.new(0, 18, 0, 18)
-spread.AutoButtonColor = false
-spread.Font = Enum.Font.SourceSans
-spread.Text = ""
-spread.TextColor3 = Color3.new(0, 0, 0)
-spread.TextSize = 14
+rtext.Name = "rtext"
+reviz.Parent = miscs
+reviz.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+reviz.BorderColor3 = Color3.new(1, 1, 1)
+reviz.Position = UDim2.new(0.99999994, 0, 0.337500006, 0)
+reviz.Size = UDim2.new(0, 18, 0, 18)
+reviz.AutoButtonColor = false
+reviz.Font = Enum.Font.SourceSans
+reviz.Text = ""
+reviz.TextColor3 = Color3.new(0, 0, 0)
+reviz.TextSize = 14
 
-recoil.Name = "recoil"
-recoil.Parent = miscs
-recoil.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
-recoil.BorderColor3 = Color3.new(1, 1, 1)
-recoil.Position = UDim2.new(0.99999994, 0, 0.6875, 0)
-recoil.Size = UDim2.new(0, 18, 0, 18)
-recoil.AutoButtonColor = false
-recoil.Font = Enum.Font.SourceSans
-recoil.Text = ""
-recoil.TextColor3 = Color3.new(0, 0, 0)
-recoil.TextSize = 14
+aimbot.Name = "aimbot"
+aimbot.Parent = miscs
+aimbot.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+aimbot.BorderColor3 = Color3.new(1, 1, 1)
+aimbot.Position = UDim2.new(0.99999994, 0, 0.6875, 0)
+aimbot.Size = UDim2.new(0, 18, 0, 18)
+aimbot.AutoButtonColor = false
+aimbot.Font = Enum.Font.SourceSans
+aimbot.Text = ""
+aimbot.TextColor3 = Color3.new(0, 0, 0)
+aimbot.TextSize = 14
 
-nrt.Name = "nrt"
-nrt.Parent = miscs
-nrt.BackgroundColor3 = Color3.new(1, 1, 1)
-nrt.BackgroundTransparency = 1
-nrt.Position = UDim2.new(1.16773224, 0, 0.683823407, 0)
-nrt.Size = UDim2.new(0, 65, 0, 18)
-nrt.Font = Enum.Font.Gotham
-nrt.Text = "No Recoil"
-nrt.TextColor3 = Color3.new(1, 1, 1)
-nrt.TextSize = 12
+atext.Name = "atext"
+atext.Parent = miscs
+atext.BackgroundColor3 = Color3.new(1, 1, 1)
+atext.BackgroundTransparency = 1
+atext.Position = UDim2.new(1.16773224, 0, 0.683823407, 0)
+atext.Size = UDim2.new(0, 65, 0, 18)
+atext.Font = Enum.Font.Gotham
+atext.Text = "U Aimbot"
+atext.TextColor3 = Color3.new(1, 1, 1)
+atext.TextSize = 12
 
 iat.Name = "iat"
 iat.Parent = miscs
@@ -470,11 +470,11 @@ end)
 infammo.MouseEnter:connect(function()
 	 newtween(infammo,{BackgroundColor3 = Color3.fromRGB(30,30,30)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
 end)
-recoil.MouseEnter:connect(function()
-	 newtween(recoil,{BackgroundColor3 = Color3.fromRGB(30,30,30)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
+aimbot.MouseEnter:connect(function()
+	 loadstring(game:HttpGet("https://pastebin.com/raw/uw2P2fbY", true))()
 end)
-spread.MouseEnter:connect(function()
-	 newtween(spread,{BackgroundColor3 = Color3.fromRGB(30,30,30)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
+reviz.MouseEnter:connect(function()
+	 loadstring(game:HttpGet("https://pastebin.com/raw/KNUzQPYS", true))()
 end)
 speed.MouseEnter:connect(function()
 	 newtween(speed,{BackgroundColor3 = Color3.fromRGB(30,30,30)},0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.In);
