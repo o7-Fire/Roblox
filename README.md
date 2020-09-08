@@ -3,7 +3,7 @@
 # Usage
 * Download script executor
 * Run roblox
-* Inject it
+* Inject with the latest api
 * Execute Script
 * loadstring(game:HttpGet("'https://raw.githubusercontent.com/o7-Fire/Roblox/master/HackManager.lua", true))()
 # Disclaimer
