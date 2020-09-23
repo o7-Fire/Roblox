@@ -3,6 +3,8 @@
 
 # Usage
 * Download script executor
+* Extract
+- Run directly, no need to install
 * Run roblox
 * Inject with the latest api
 * Copy Paste Script
