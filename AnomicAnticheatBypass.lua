@@ -1,5 +1,9 @@
 -- execute this and then u can fly and noclip and stuff
 
+--===========================
+-- the script got patched f
+--===========================
+
 for i,v in pairs(getgc(true)) do
     if type(v) == 'function' and getfenv(v).script and getfenv(v).script == game:GetService("Players").LocalPlayer.PlayerGui["_L.Handler"].InventoryHandler then
         if table.find(getconstants(v),'NoclipChecking') then
