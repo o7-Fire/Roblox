@@ -19,7 +19,7 @@
 - [KRNL (best free one but have to go through 5 linkvertise for key)](https://cdn.krnl.rocks/krnl_bootstrapper.rar)
 
 # Paid Script Executor
-- [Synapse X (15-20 dollars, paypal or bitcoin)](https://x.synapse.to/)
+- [Synapse X (best one, 15-20 dollars, paypal or bitcoin)](https://x.synapse.to/)
 - [Protosmasher (Free Trial or 15 dollars, paypal)](https://protosmasher.net/)
 - [Sentinel (Free Trial or 15 dollars, paypal)](https://elymltd.selly.store/product/a6576d71)
 
