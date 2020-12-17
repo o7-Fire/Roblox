@@ -13,6 +13,9 @@
 # Script Executor
 - [MainDab](https://github.com/leonardssy/ProjectDab/blob/master/MainDab.zip?raw=true)
 - [Flame+](https://bit.ly/FlamePlus)
+- [VYZX](https://mega.nz/#!r7pAQRrD!4DwNSCMyjFtxDwyLfQBocOgdgRIv6qeAQnVRE5qSMV0)
+- [GR3NY V4](https://mega.nz/#!6nongDhY!EOspUuU-dcE8RHpvV5gJPghOHmujvoBZl-Q-CwWhrBs)
+- [R47$ploit V2](https://mega.nz/#!OlxXxLxC!TCgiJ5irRyPQ6CUmGorWLEfMaKF3ze1PXEtVK1qo4AE)
 
 # Disclaimer
 
