@@ -149,6 +149,7 @@ char.Humanoid.Died:Connect(function()
 end)
 
 plr.Character = fakechar
+wait(5)
 math.randomseed(tick())
 Player = game.Players.LocalPlayer
 Character = Player.Character
