@@ -1,4 +1,5 @@
 ---------------------------
+-- made by nexity
 -- teleports you to food
 ---------------------------
 while wait(0.1) do
