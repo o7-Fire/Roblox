@@ -7,10 +7,7 @@
 --]]
 
 -- Variables and setting up the character
-
--- HOW TO USE:
--- reset and then instantly execute this
--- this is so you get forcefield
+-- THIS IS NOT GODMODE
 
 local rs = game:GetService("RunService")
 
