@@ -7,6 +7,11 @@
 --]]
 
 -- Variables and setting up the character
+
+-- HOW TO USE:
+-- reset and then instantly execute this
+-- this is so you get forcefield
+
 local rs = game:GetService("RunService")
 
 local plr  = game:GetService("Players").LocalPlayer
