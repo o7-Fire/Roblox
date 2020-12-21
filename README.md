@@ -31,3 +31,5 @@
 # Disclaimer
 
 * Some of the code may be not owned by o7
+
+I was here ©owler0954
