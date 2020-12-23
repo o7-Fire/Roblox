@@ -1,6 +1,4 @@
 
-<h4 align="center">Visitor's count :eyes:</h4>
-<p align="center"><img src="https://profile-counter.glitch.me/%7Bsketchyirishman%7D/count.svg" alt="sketchyirishman :: Visitor's Count" /></p>
 
 
 # Usage
@@ -32,4 +30,5 @@
 
 * Some of the code may be not owned by o7
 
-I was here ©owler0954
+<h4 align="center">Visitor's count :eyes:</h4>
+<p align="center"><img src="https://profile-counter.glitch.me/%7Bo7firerobloxtransparentbluff%7D/count.svg" alt="sketchyirishman :: Visitor's Count" /></p>
