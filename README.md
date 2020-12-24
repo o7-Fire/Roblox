@@ -26,7 +26,7 @@
 # V3rmillion profiles
 - [Nexity (MrBlobFish13)](https://v3rmillion.net/member.php?action=profile&uid=711260)
 # TODO
-- Reorganize the files (organized by shadow01148, just waiting for the pull requests to go through)
+- Reorganize the files (done)
 
 # Disclaimer
 
