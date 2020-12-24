@@ -25,10 +25,12 @@
 
 # V3rmillion profiles
 - [Nexity (MrBlobFish13)](https://v3rmillion.net/member.php?action=profile&uid=711260)
+# TODO
+- Reorganize the files
 
 # Disclaimer
 
 * Some of the code may be not owned by o7
 
 <h4 align="center">Visitor's count :eyes:</h4>
-<p align="center"><img src="https://profile-counter.glitch.me/%7Bo7firerobloxtransparentbluff%7D/count.svg" alt="sketchyirishman :: Visitor's Count" /></p>
+<p align="center"><img src="https://profile-counter.glitch.me/%7Bsketchyirishman%7D/count.svg" alt="sketchyirishman :: Visitor's Count" /></p>
