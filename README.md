@@ -4,7 +4,7 @@
 # Usage
 * Download script executor
 * Extract
-- Run directly, no need to install
+* Run Executor
 * Run roblox
 * Inject with the latest api
 * Copy Paste Script
@@ -25,6 +25,7 @@
 
 # V3rmillion profiles
 - [Nexity (MrBlobFish13)](https://v3rmillion.net/member.php?action=profile&uid=711260)
+
 # TODO
 - Reorganize the files (done)
 
