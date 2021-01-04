@@ -28,6 +28,7 @@
 
 # TODO
 - Reorganize the files (done)
+- Restyle this readme
 
 # Disclaimer
 
