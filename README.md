@@ -29,6 +29,7 @@
 # TODO
 - Reorganize the files (done)
 - Restyle this readme
+- word tutorials for complex scripts
 
 # Disclaimer
 
