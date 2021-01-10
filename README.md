@@ -25,6 +25,7 @@
 
 # V3rmillion profiles
 - [Nexity (MrBlobFish13)](https://v3rmillion.net/member.php?action=profile&uid=711260)
+- [Volas](https://v3rmillion.net/member.php?action=profile&uid=1906191)
 
 # TODO
 - Reorganize the files (done)
