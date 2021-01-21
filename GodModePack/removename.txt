@@ -1,0 +1,12 @@
+-- use dark dex to find the name tag you have
+-- usually its in game.Workspace.yournamehere
+-- sometimes its in Head
+-- replace DIRECTORY with the dir
+-- example: player.NameTag:Destroy()
+
+game:GetService"RunService".RenderStepped:Connect(function()
+pcall(function()
+player = game:GetService("Workspace").YOURNAMEHERE
+player.DIRECTORY:Destroy()
+end)
+end)
