@@ -30,6 +30,7 @@
 - Reorganize the files (done)
 - Restyle this readme
 - word tutorials for complex scripts
+- add 200 scripts in the span of 1 week
 
 # Disclaimer
 
