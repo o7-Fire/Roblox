@@ -26,6 +26,14 @@
 # V3rmillion profiles
 - [Nexity (MrBlobFish13)](https://v3rmillion.net/member.php?action=profile&uid=711260)
 
+# Linkvertise Bypasser
+- 0: Install tampermonkey
+- 1: Download script from https://greasyfork.org/en/scripts/409156-linkvertise-bypass
+- 1.2: Check that it actually installed properly
+- 2: Bypass linkvertise
+- 3: shit it not work
+- 4: oh wait nvm, it just takes some time
+
 # TODO
 - Reorganize the files (done)
 - Restyle this readme
