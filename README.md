@@ -34,6 +34,10 @@
 - 3: shit it not work
 - 4: oh wait nvm, it just takes some time
 
+# Alt account sites to exploit on
+- altgen.club
+- enter in a game's id, player name to join, or vip link and you will automatically login into an alt into the game
+
 # TODO
 - Reorganize the files (done)
 - Restyle this readme
