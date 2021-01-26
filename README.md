@@ -39,7 +39,7 @@
 - enter in a game's id, player name to join, or vip link and you will automatically login into an alt into the game
 
 # TODO
-- reorganize the reorganized files
+- reorganize and reorganize the reorganized files
 - Restyle this readme
 - word tutorials for complex scripts
 
