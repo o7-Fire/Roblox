@@ -5,5 +5,7 @@
 -- every time you vote for a law, you get 100 cash, you can vote every 1 minute
 
 while wait(5) do
+pcall(function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(331.79, 61, 427.05) + Vector3.new(1,0,0)
+end)
 end
