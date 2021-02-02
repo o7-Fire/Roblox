@@ -1,3 +1,4 @@
+
 print("gay")
 game:GetService("Lighting").Brightness = 1
 game:GetService("Lighting").FogEnd = 786543
@@ -10,5 +11,5 @@ local function disable()
    game:GetService("Lighting").GlobalShadows = _G.NormalLightingSettings.GlobalShadows
    game:GetService("Lighting").Ambient = _G.NormalLightingSettings.Ambient
 end
-//disable()
-//uncomment above to disable
+--disable()
+--uncomment above to disable
