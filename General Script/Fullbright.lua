@@ -12,10 +12,16 @@ local function Normalize()
 end
 
 loacl function Fullbright()
-   game:GetService("Lighting").Brightness = 1
-   game:GetService("Lighting").FogEnd = 786543
-   game:GetService("Lighting").GlobalShadows = false
-   game:GetService("Lighting").Ambient = Color3.fromRGB(178, 178, 178)
+
+
+
+game.Lighting.TimeOfDay = "14:00:00"
+game.Lighting.FogEnd = 9999
+game.Lighting.Brightness = 2
+game.Lighting.ColorCorrection.Brightness = 0.1
+game.Lighting.ColorCorrection.Saturation = 0.1
+game.Lighting.Bloom.Intensity = 0.1
+
 end
 
 if EnableFullbright == true then
