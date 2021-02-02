@@ -32,7 +32,7 @@
 - 1.2: Check that it actually installed properly
 - 2: Bypass linkvertise
 - 3: shit it not work
-- 4: oh wait nvm, it just takes some time
+- 4: oh wait nvm, it just takes some time (15 sec)
 
 # Alt account sites to exploit on
 - altgen.club
