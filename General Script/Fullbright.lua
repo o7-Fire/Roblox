@@ -1,3 +1,5 @@
+--game.Lighting.Brightness = 10
+--simple one ^
 print("gay")
 local EnableFullbright = true
 
