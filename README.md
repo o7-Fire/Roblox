@@ -1,4 +1,4 @@
-https://img.shields.io/discord/767366198194864208
+![](https://img.shields.io/discord/767366198194864208)
 
 
 # Usage
