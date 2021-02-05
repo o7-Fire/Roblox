@@ -34,9 +34,14 @@
 - 3: shit it not work
 - 4: oh wait nvm, it just takes some time (15 sec)
 
-# Alt account sites to exploit on
+# Cool Websites
 - altgen.club
 - enter in a game's id, player name to join, or vip link and you will automatically login into an alt into the game
+
+# Small Server Finder
+- https://discord.com/invite/eCQgRzr6Q4
+- command: hex!server {PlaceId}
+- https://v3rmillion.net/showthread.php?tid=1096604
 
 # TODO
 - reorganize and reorganize the reorganized files
