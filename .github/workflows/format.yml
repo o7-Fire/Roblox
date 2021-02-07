@@ -23,6 +23,8 @@ jobs:
           echo Reformatting thing
           chmod +x format.sh
           ./format.sh
+      - name: Git Push
+        run: |
           git add .
           git commit -m "Reformat"
           git push https://Itzbenz:${{ secrets.API_TOKEN_GITHUB }}@github.com/o7-Fire/Roblox
