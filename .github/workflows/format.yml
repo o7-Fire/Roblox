@@ -26,10 +26,10 @@ jobs:
           ./format.sh
       - name: Git Commit
         run: |
-          git add .
-          git commit -m "Reformat"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "Reformatter[Bot]"
+          git add .
+          git commit -m "Reformat"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
