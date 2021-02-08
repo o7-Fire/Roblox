@@ -17,7 +17,7 @@ spawn(function()
     end
 end)
 
-]]--
+]] --
 --[[
 THIS IS THE LIST OF HATS WHICH SHOULD BE EQUIPPED
 1 - RoBox: https://www.roblox.com/catalog/4819740796/Robox
@@ -54,4 +54,4 @@ X - Point
 C - Laugh
 V - Cheer
 
-]]--
+]] --

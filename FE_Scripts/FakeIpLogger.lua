@@ -1,8 +1,6 @@
 -- Gui to Lua
 -- Version: 3.2
- 
 -- Instances:
- 
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("ImageLabel")
 local TextLabel = Instance.new("TextLabel")
@@ -27,11 +25,11 @@ local sound = Instance.new("Sound")
 sound.Parent = workspace
 sound.SoundId = "rbxassetid://5292029547"
 sound:Play()
- 
---Properties:
- 
+
+-- Properties:
+
 ScreenGui.Parent = game.CoreGui
- 
+
 Frame.Name = "Frame"
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -45,7 +43,7 @@ Frame.ScaleType = Enum.ScaleType.Slice
 Frame.SliceCenter = Rect.new(100, 100, 100, 100)
 Frame.SliceScale = 0.120
 Frame.ClipsDescendants = true
- 
+
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
@@ -56,7 +54,7 @@ TextLabel.Font = Enum.Font.SourceSansBold
 TextLabel.Text = "IP"
 TextLabel.TextColor3 = Color3.fromRGB(255, 85, 0)
 TextLabel.TextSize = 25.000
- 
+
 TextLabel_2.Parent = Frame
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.BackgroundTransparency = 1.000
@@ -67,7 +65,7 @@ TextLabel_2.Font = Enum.Font.SourceSansBold
 TextLabel_2.Text = "LOGGER"
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.TextSize = 25.000
- 
+
 close.Name = "close"
 close.Parent = Frame
 close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -81,7 +79,7 @@ close.TextColor3 = Color3.fromRGB(255, 0, 0)
 close.TextScaled = true
 close.TextSize = 14.000
 close.TextWrapped = true
- 
+
 TextLabel_3.Parent = Frame
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.BackgroundTransparency = 1.000
@@ -92,7 +90,7 @@ TextLabel_3.Font = Enum.Font.SourceSansBold
 TextLabel_3.Text = "Gui & Code Remade: fixed#8267"
 TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.TextSize = 15.000
- 
+
 TextLabel_4.Parent = Frame
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_4.BackgroundTransparency = 1.000
@@ -103,7 +101,7 @@ TextLabel_4.Font = Enum.Font.SourceSansBold
 TextLabel_4.Text = "Gui & Code Revamp: Univrs#7207"
 TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_4.TextSize = 15.000
- 
+
 username.Name = "username"
 username.Parent = Frame
 username.BackgroundColor3 = Color3.fromRGB(255, 128, 0)
@@ -118,7 +116,7 @@ username.PlaceholderText = "Input User"
 username.Text = ""
 username.TextColor3 = Color3.fromRGB(255, 255, 255)
 username.TextSize = 14.000
- 
+
 snatch.Name = "LogFakeIp"
 snatch.Parent = Frame
 snatch.BackgroundColor3 = Color3.fromRGB(255, 128, 0)
@@ -134,30 +132,35 @@ snatch.TextScaled = true
 snatch.TextSize = 14.000
 snatch.TextWrapped = true
 snatch.MouseButton1Down:connect(function()
-local v = game.Players[username.Text]
-ass = gethiddenproperty or get_hidden_prop
-    local Thing = game:GetService("HttpService"):JSONDecode(game:HttpGet("http://country.io/names.json"))
+    local v = game.Players[username.Text]
+    ass = gethiddenproperty or get_hidden_prop
+    local Thing = game:GetService("HttpService"):JSONDecode(
+                      game:HttpGet("http://country.io/names.json"))
     local ParsedCountry = Thing[ass(v, "CountryRegionCodeReplicate")]
-    local SayMessageRequest1 = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-SayMessageRequest1:FireServer(
-v.Name.." - Cracking IP Address...",
-"All"
-)
-wait(2)
-   local SayMessageRequest = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-SayMessageRequest:FireServer(
-v.Name.." is from "..tostring(ParsedCountry).." OS: "..v.OsPlatform.." IP: "..math.random(836).."."..math.random(725).."."..math.random(99)..".".."##".." ".."(IP: Successfully Logged)",
-"All"
-)
-wait(0.55)
- local SayMessageRequest2 = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-SayMessageRequest2:FireServer(
-v.Name.."'s Data Has Been Successfully Stolen.",
-"All"
-)
- 
+    local SayMessageRequest1 =
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
+            .SayMessageRequest
+    SayMessageRequest1:FireServer(v.Name .. " - Cracking IP Address...", "All")
+    wait(2)
+    local SayMessageRequest =
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
+            .SayMessageRequest
+    SayMessageRequest:FireServer(v.Name .. " is from " ..
+                                     tostring(ParsedCountry) .. " OS: " ..
+                                     v.OsPlatform .. " IP: " .. math.random(836) ..
+                                     "." .. math.random(725) .. "." ..
+                                     math.random(99) .. "." .. "##" .. " " ..
+                                     "(IP: Successfully Logged)", "All")
+    wait(0.55)
+    local SayMessageRequest2 =
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
+            .SayMessageRequest
+    SayMessageRequest2:FireServer(v.Name ..
+                                      "'s Data Has Been Successfully Stolen.",
+                                  "All")
+
 end)
- 
+
 TextButton_Roundify_12px.Name = "TextButton_Roundify_12px"
 TextButton_Roundify_12px.Parent = snatch
 TextButton_Roundify_12px.Active = true
@@ -173,7 +176,7 @@ TextButton_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 128, 0)
 TextButton_Roundify_12px.ScaleType = Enum.ScaleType.Slice
 TextButton_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
 TextButton_Roundify_12px.SliceScale = 0.120
- 
+
 miscbut.Name = "miscbut"
 miscbut.Parent = Frame
 miscbut.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -187,7 +190,7 @@ miscbut.TextColor3 = Color3.fromRGB(255, 255, 255)
 miscbut.TextScaled = true
 miscbut.TextSize = 14.000
 miscbut.TextWrapped = true
- 
+
 MISC.Name = "MISC"
 MISC.Parent = Frame
 MISC.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -200,7 +203,7 @@ MISC.ImageColor3 = Color3.fromRGB(20, 20, 20)
 MISC.ScaleType = Enum.ScaleType.Slice
 MISC.SliceCenter = Rect.new(100, 100, 100, 100)
 MISC.SliceScale = 0.120
- 
+
 TextLabel_5.Parent = MISC
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_5.BackgroundTransparency = 1.000
@@ -210,7 +213,7 @@ TextLabel_5.Font = Enum.Font.SourceSansBold
 TextLabel_5.Text = "MI"
 TextLabel_5.TextColor3 = Color3.fromRGB(255, 85, 0)
 TextLabel_5.TextSize = 25.000
- 
+
 TextLabel_6.Parent = MISC
 TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_6.BackgroundTransparency = 1.000
@@ -220,7 +223,7 @@ TextLabel_6.Font = Enum.Font.SourceSansBold
 TextLabel_6.Text = "SC"
 TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_6.TextSize = 25.000
- 
+
 snatchall.Name = "logserver"
 snatchall.Parent = MISC
 snatchall.BackgroundColor3 = Color3.fromRGB(255, 128, 0)
@@ -236,39 +239,43 @@ snatchall.TextScaled = true
 snatchall.TextSize = 14.000
 snatchall.TextWrapped = true
 snatchall.MouseButton1Down:connect(function()
---[[https://v3rmillion.net/showthread.php?tid=1012504, In-Chat Player Real Country Fake IP leaker by kuraga.
+    --[[https://v3rmillion.net/showthread.php?tid=1012504, In-Chat Player Real Country Fake IP leaker by kuraga.
 ]]
--- CREDITS TO kuraga#4659 AND DerzeTT#8830
-ass = gethiddenproperty or get_hidden_prop
- 
-for _,v in pairs(game:GetService("Players"):GetPlayers()) do
-   if v.Name ~= game:GetService("Players").LocalPlayer.Name then
-    local Thing = game:GetService("HttpService"):JSONDecode(game:HttpGet("http://country.io/names.json"))
-    local ParsedCountry = Thing[ass(v, "CountryRegionCodeReplicate")]
-   local SayMessageRequest = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-SayMessageRequest:FireServer(
-v.Name.." is from "..tostring(ParsedCountry).." OS: "..v.OsPlatform.." IP: "..math.random(728).."."..math.random(326).."."..math.random(99)..".".."##".." ".."(IP: Successfully Logged)",
-"All"
-)
-wait(2)
-end
-end
-for i = 1,5 do
-local SayMessageRequest1 = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-SayMessageRequest1:FireServer(
-"Program Status: Cracking...",
-"All"
-)
-wait(1)
-end
-wait(5)
-local SayMessageRequest2 = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
-SayMessageRequest2:FireServer(
-"Program Status: Successfully Stolen Addresses, Data Being Sold To [%Encryped Site%]",
-"All"
-)
+    -- CREDITS TO kuraga#4659 AND DerzeTT#8830
+    ass = gethiddenproperty or get_hidden_prop
+
+    for _, v in pairs(game:GetService("Players"):GetPlayers()) do
+        if v.Name ~= game:GetService("Players").LocalPlayer.Name then
+            local Thing = game:GetService("HttpService"):JSONDecode(
+                              game:HttpGet("http://country.io/names.json"))
+            local ParsedCountry = Thing[ass(v, "CountryRegionCodeReplicate")]
+            local SayMessageRequest =
+                game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
+                    .SayMessageRequest
+            SayMessageRequest:FireServer(
+                v.Name .. " is from " .. tostring(ParsedCountry) .. " OS: " ..
+                    v.OsPlatform .. " IP: " .. math.random(728) .. "." ..
+                    math.random(326) .. "." .. math.random(99) .. "." .. "##" ..
+                    " " .. "(IP: Successfully Logged)", "All")
+            wait(2)
+        end
+    end
+    for i = 1, 5 do
+        local SayMessageRequest1 =
+            game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
+                .SayMessageRequest
+        SayMessageRequest1:FireServer("Program Status: Cracking...", "All")
+        wait(1)
+    end
+    wait(5)
+    local SayMessageRequest2 =
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents
+            .SayMessageRequest
+    SayMessageRequest2:FireServer(
+        "Program Status: Successfully Stolen Addresses, Data Being Sold To [%Encryped Site%]",
+        "All")
 end)
- 
+
 TextButton_Roundify_12px_2.Name = "TextButton_Roundify_12px"
 TextButton_Roundify_12px_2.Parent = snatchall
 TextButton_Roundify_12px_2.Active = true
@@ -283,7 +290,7 @@ TextButton_Roundify_12px_2.ImageColor3 = Color3.fromRGB(255, 128, 0)
 TextButton_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
 TextButton_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
 TextButton_Roundify_12px_2.SliceScale = 0.120
- 
+
 TextLabel_7.Parent = MISC
 TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_7.BackgroundTransparency = 1.000
@@ -295,37 +302,39 @@ TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_7.TextScaled = true
 TextLabel_7.TextSize = 25.000
 TextLabel_7.TextWrapped = true
- 
+
 -- Scripts:
- 
+
 local function XHSJL_fake_script() -- close.LocalScript 
-	local script = Instance.new('LocalScript', close)
- 
-	close.MouseButton1Down:Connect(function()
-	    MISC:TweenPosition(UDim2.new(0.078, 0, 0.073, 0), 'Out', 'Bounce', 0.35)
-			wait(.35)
-	    Frame.ClipsDescendants = true
-		Frame:TweenSize(UDim2.new(0,0,0,0), 'Out', 'Linear', .3)
-		wait(.3)
-		ScreenGui:Destroy()
-	end)
+    local script = Instance.new('LocalScript', close)
+
+    close.MouseButton1Down:Connect(function()
+        MISC:TweenPosition(UDim2.new(0.078, 0, 0.073, 0), 'Out', 'Bounce', 0.35)
+        wait(.35)
+        Frame.ClipsDescendants = true
+        Frame:TweenSize(UDim2.new(0, 0, 0, 0), 'Out', 'Linear', .3)
+        wait(.3)
+        ScreenGui:Destroy()
+    end)
 end
 coroutine.wrap(XHSJL_fake_script)()
 local function MOOLDA_fake_script() -- miscbut.LocalScript 
-	local script = Instance.new('LocalScript', miscbut)
- 
-	local t = false
-	miscbut.MouseButton1Down:Connect(function()
-		if (t == false) then
-			MISC:TweenPosition(UDim2.new(1.051, 0, 0.073, 0), 'Out', 'Bounce', 0.35)
-			wait(.35)
-			t = true
-		elseif (t == true) then
-			MISC:TweenPosition(UDim2.new(0.078, 0, 0.073, 0), 'Out', 'Bounce', 0.35)
-			wait(.35)
-			t = false
-		end
-	end)
+    local script = Instance.new('LocalScript', miscbut)
+
+    local t = false
+    miscbut.MouseButton1Down:Connect(function()
+        if (t == false) then
+            MISC:TweenPosition(UDim2.new(1.051, 0, 0.073, 0), 'Out', 'Bounce',
+                               0.35)
+            wait(.35)
+            t = true
+        elseif (t == true) then
+            MISC:TweenPosition(UDim2.new(0.078, 0, 0.073, 0), 'Out', 'Bounce',
+                               0.35)
+            wait(.35)
+            t = false
+        end
+    end)
 end
 coroutine.wrap(MOOLDA_fake_script)()
 Frame:TweenSize(UDim2.new(0, 306, 0, 172), 'Out', 'Linear', 0.3)

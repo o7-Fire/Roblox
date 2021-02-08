@@ -1,11 +1,10 @@
---Made By Kurokku/Rebug REX--
---Settings:
-
+-- Made By Kurokku/Rebug REX--
+-- Settings:
 local RemoteIgnores = {
-	["RemoteFunction"] = true;
-	["RemoteEvent"] = true;
-	["BindableFunction"] = false;
-	["BindableEvent"] = false;
+    ["RemoteFunction"] = true,
+    ["RemoteEvent"] = true,
+    ["BindableFunction"] = false,
+    ["BindableEvent"] = false
 }
 
 ------------------------------------------
@@ -124,9 +123,10 @@ local R2S_3 = Instance.new("TextButton")
 local Shadow_38 = Instance.new("Frame")
 local Shadow_39 = Instance.new("Frame")
 local Shadow_40 = Instance.new("Frame")
---Properties:
+-- Properties:
 MrSpyV2RebugKurokkusGhost.Name = "Mr.Spy V2 - Rebug/KurokkusGhost"
-MrSpyV2RebugKurokkusGhost.Parent = game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui")
+MrSpyV2RebugKurokkusGhost.Parent =
+    game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui")
 MrSpyV2RebugKurokkusGhost.ResetOnSpawn = false
 
 Hub.Name = "Hub"
@@ -367,7 +367,8 @@ WarningLabel.Position = UDim2.new(0.5, 0, 0.899999976, 0)
 WarningLabel.Size = UDim2.new(0.800000012, 0, 0.200000003, 0)
 WarningLabel.ZIndex = 7
 WarningLabel.Font = Enum.Font.SourceSansBold
-WarningLabel.Text = "Please make sure you have selected a remote in the output to convert into a script"
+WarningLabel.Text =
+    "Please make sure you have selected a remote in the output to convert into a script"
 WarningLabel.TextColor3 = Color3.new(1, 0.8, 0.301961)
 WarningLabel.TextScaled = true
 WarningLabel.TextSize = 30
@@ -381,7 +382,8 @@ Shadow_7.Position = UDim2.new(0, 1, 0, 1)
 Shadow_7.Size = UDim2.new(1, 0, 1, 0)
 Shadow_7.ZIndex = 6
 Shadow_7.Font = Enum.Font.SourceSansBold
-Shadow_7.Text = "Please make sure you have selected a remote in the output to convert into a script"
+Shadow_7.Text =
+    "Please make sure you have selected a remote in the output to convert into a script"
 Shadow_7.TextColor3 = Color3.new(0, 0, 0)
 Shadow_7.TextScaled = true
 Shadow_7.TextSize = 30
@@ -396,7 +398,8 @@ Shadow_8.Position = UDim2.new(0, 2, 0, 2)
 Shadow_8.Size = UDim2.new(1, 0, 1, 0)
 Shadow_8.ZIndex = 6
 Shadow_8.Font = Enum.Font.SourceSansBold
-Shadow_8.Text = "Please make sure you have selected a remote in the output to convert into a script"
+Shadow_8.Text =
+    "Please make sure you have selected a remote in the output to convert into a script"
 Shadow_8.TextColor3 = Color3.new(0, 0, 0)
 Shadow_8.TextScaled = true
 Shadow_8.TextSize = 30
@@ -411,7 +414,8 @@ Shadow_9.Position = UDim2.new(0, 3, 0, 3)
 Shadow_9.Size = UDim2.new(1, 0, 1, 0)
 Shadow_9.ZIndex = 6
 Shadow_9.Font = Enum.Font.SourceSansBold
-Shadow_9.Text = "Please make sure you have selected a remote in the output to convert into a script"
+Shadow_9.Text =
+    "Please make sure you have selected a remote in the output to convert into a script"
 Shadow_9.TextColor3 = Color3.new(0, 0, 0)
 Shadow_9.TextScaled = true
 Shadow_9.TextSize = 30
@@ -621,7 +625,8 @@ WarningLabel_2.Position = UDim2.new(0.5, 0, 0.899999976, 0)
 WarningLabel_2.Size = UDim2.new(0.800000012, 0, 0.200000003, 0)
 WarningLabel_2.ZIndex = 7
 WarningLabel_2.Font = Enum.Font.SourceSansBold
-WarningLabel_2.Text = "Please make sure you select a remote in the remotes tab to view its location"
+WarningLabel_2.Text =
+    "Please make sure you select a remote in the remotes tab to view its location"
 WarningLabel_2.TextColor3 = Color3.new(1, 0.8, 0.301961)
 WarningLabel_2.TextScaled = true
 WarningLabel_2.TextSize = 30
@@ -635,7 +640,8 @@ Shadow_16.Position = UDim2.new(0, 1, 0, 1)
 Shadow_16.Size = UDim2.new(1, 0, 1, 0)
 Shadow_16.ZIndex = 6
 Shadow_16.Font = Enum.Font.SourceSansBold
-Shadow_16.Text = "Please make sure you select a remote in the remotes tab to view its location"
+Shadow_16.Text =
+    "Please make sure you select a remote in the remotes tab to view its location"
 Shadow_16.TextColor3 = Color3.new(0, 0, 0)
 Shadow_16.TextScaled = true
 Shadow_16.TextSize = 30
@@ -650,7 +656,8 @@ Shadow_17.Position = UDim2.new(0, 2, 0, 2)
 Shadow_17.Size = UDim2.new(1, 0, 1, 0)
 Shadow_17.ZIndex = 6
 Shadow_17.Font = Enum.Font.SourceSansBold
-Shadow_17.Text = "Please make sure you select a remote in the remotes tab to view its location"
+Shadow_17.Text =
+    "Please make sure you select a remote in the remotes tab to view its location"
 Shadow_17.TextColor3 = Color3.new(0, 0, 0)
 Shadow_17.TextScaled = true
 Shadow_17.TextSize = 30
@@ -665,7 +672,8 @@ Shadow_18.Position = UDim2.new(0, 3, 0, 3)
 Shadow_18.Size = UDim2.new(1, 0, 1, 0)
 Shadow_18.ZIndex = 6
 Shadow_18.Font = Enum.Font.SourceSansBold
-Shadow_18.Text = "Please make sure you select a remote in the remotes tab to view its location"
+Shadow_18.Text =
+    "Please make sure you select a remote in the remotes tab to view its location"
 Shadow_18.TextColor3 = Color3.new(0, 0, 0)
 Shadow_18.TextScaled = true
 Shadow_18.TextSize = 30
@@ -1344,7 +1352,8 @@ Shadow_40.ZIndex = 7
 
 getfenv().script = Instance.new('LocalScript', MrSpyV2RebugKurokkusGhost)
 
-repeat wait() until game:GetService("Players").LocalPlayer.Character:WaitForChild("HumanoidRootPart")
+repeat wait() until game:GetService("Players").LocalPlayer.Character:WaitForChild(
+    "HumanoidRootPart")
 local Hub = script.Parent.Hub
 local plr = game:GetService("Players").LocalPlayer
 local Animate = Hub.Main.Animate
@@ -1364,390 +1373,397 @@ local Explorer = TF.Explorer
 local R2S = TF.R2S
 
 local Instances = {
-	["BadgeService"] = 76;
-	["Humanoid"] = 10;
-	["GuiService"] = 48;
-	["CylinderHandleAdornment"] = 55;
-	["BallSocketConstraint"] = 90;
-	["BrickColorValue"] = 5;
-	["Accoutrement"] = 33;
-	["AdService"] = 74;
-	["AssetService"] = 73;
-	["GuiMain"] = 48;
-	["ImageButton"] = 53;
-	["HapticService"] = 85;
-	["DialogChoice"] = 64;
-	["Handles"] = 54;
-	["ReflectionMetadataClasses"] = 87;
-	["JointInstance"] = 35;
-	["AnimationController"] = 61;
-	["RemoteEvent"] = 81;
-	["CollectionService"] = 31;
-	["Smoke"] = 60;
-	["Configuration"] = 59;
-	["KeyframeSequenceProvider"] = 61;
-	["Accessory"] = 33;
-	["SelectionPointLasso"] = 58;
-	["GamePassService"] = 20;
-	["CFrameValue"] = 5;
-	["TextureTrail"] = 5;
-	["ImageLabel"] = 50;
-	["ReflectionMetadataMember"] = 87;
-	["Animation"] = 61;
-	["IntConstrainedValue"] = 5;
-	["HttpService"] = 77;
-	["PointLight"] = 14;
-	["Model"] = 3;
-	["DoubleConstrainedValue"] = 5;
-	["Snap"] = 35;
-	["BodyAngularVelocity"] = 15;
-	["VelocityMotor"] = 35;
-	["RocketPropulsion"] = 15;
-	["SurfaceSelection"] = 56;
-	["CoreGui"] = 47;
-	["Part"] = 2;
-	["ReplicatedFirst"] = 73;
-	["BindableEvent"] = 68;
-	["SelectionPartLasso"] = 58;
-	["NegateOperation"] = 79;
-	["PyramidPart"] = 2;
-	["ArcHandles"] = 57;
-	["Hint"] = 34;
-	["Players"] = 22;
-	["Script"] = 7;
-	["ParallelRampPart"] = 2;
-	["RayValue"] = 5;
-	["LineHandleAdornment"] = 55;
-	["Camera"] = 6;
-	["RunService"] = 67;
-	["BodyForce"] = 15;
-	["KeyframeSequence"] = 61;
-	["ServerScriptService"] = 1;
-	["BillboardGui"] = 65;
-	["BodyThrust"] = 15;
-	["RemoteFunction"] = 80;
-	["Team"] = 25;
-	["Sound"] = 12;
-	["GuiButton"] = 53;
-	["Workspace"] = 20;
-	["Lighting"] = 14;
-	["JointsService"] = 35;
-	["BlurEffect"] = 91;
-	["WedgePart"] = 2;
-	["BloomEffect"] = 91;
-	["ReflectionMetadata"] = 87;
-	["Vector3Value"] = 5;
-	["PointsService"] = 84;
-	["UserInputService"] = 85;
-	["Sparkles"] = 43;
-	["BodyGyro"] = 15;
-	["Rotate"] = 35;
-	["HopperBin"] = 23;
-	["ForceField"] = 38;
-	["Tool"] = 18;
-	["Texture"] = 11;
-	["Teams"] = 24;
-	["ReflectionMetadataFunctions"] = 87;
-	["RodConstraint"] = 90;
-	["Folder"] = 71;
-	["BodyVelocity"] = 15;
-	["Shirt"] = 44;
-	["SlidingBallConstraint"] = 90;
-	["Animator"] = 61;
-	["TextButton"] = 52;
-	["Color3Value"] = 5;
-	["TextBox"] = 52;
-	["NetworkReplicator"] = 30;
-	["Platform"] = 36;
-	["TerrainRegion"] = 66;
-	["SkateboardPlatform"] = 36;
-	["Seat"] = 36;
-	["Terrain"] = 66;
-	["Explosion"] = 37;
-	["BlockMesh"] = 9;
-	["TeleportService"] = 82;
-	["PlayerGui"] = 47;
-	["TextLabel"] = 51;
-	["SurfaceLight"] = 14;
-	["SurfaceGui"] = 65;
-	["Debris"] = 31;
-	["FlagStand"] = 40;
-	["StarterPack"] = 21;
-	["BindableFunction"] = 67;
-	["ReflectionMetadataCallbacks"] = 87;
-	["NetworkClient"] = 17;
-	["ModuleScript"] = 72;
-	["Flag"] = 39;
-	["Status"] = 3;
-	["ParticleEmitter"] = 70;
-	["StarterPlayer"] = 89;
-	["StringValue"] = 5;
-	["ObjectValue"] = 5;
-	["CharacterMesh"] = 61;
-	["StarterGui"] = 47;
-	["ReplicatedStorage"] = 73;
-	["StarterCharacterScripts"] = 83;
-	["NetworkServer"] = 16;
-	["Backpack"] = 21;
-	["ReflectionMetadataEnum"] = 87;
-	["StarterPlayerScripts"] = 83;
-	["SpotLight"] = 14;
-	["CustomEventReceiver"] = 5;
-	["SphereHandleAdornment"] = 55;
-	["SoundService"] = 32;
-	["SpecialMesh"] = 9;
-	["SpawnLocation"] = 26;
-	["PlayerScripts"] = 83;
-	["PartPairLasso"] = 58;
-	["ColorCorrectionEffect"] = 91;
-	["UnionOperation"] = 78;
-	["Sky"] = 29;
-	["MoveToConstraint"] = 90;
-	["RopeConstraint"] = 90;
-	["RightAngleRampPart"] = 2;
-	["ShirtGraphic"] = 41;
-	["ScreenGui"] = 48;
-	["SelectionSphere"] = 55;
-	["RotateV"] = 35;
-	["SelectionBox"] = 55;
-	["VehicleSeat"] = 36;
-	["CustomEvent"] = 5;
-	["Chat"] = 34;
-	["ServerStorage"] = 75;
-	["Selection"] = 56;
-	["IntValue"] = 5;
-	["RotateP"] = 35;
-	["FloorWire"] = 5;
-	["TrussPart"] = 2;
-	["StarterGear"] = 21;
-	["ReflectionMetadataYieldFunctions"] = 87;
-	["ReflectionMetadataProperties"] = 87;
-	["ReflectionMetadataEvents"] = 87;
-	["ReflectionMetadataEnums"] = 87;
-	["ReflectionMetadataEnumItem"] = 87;
-	["ReflectionMetadataClass"] = 87;
-	["PrismPart"] = 2;
-	["BinaryStringValue"] = 5;
-	["Glue"] = 35;
-	["PrismaticConstraint"] = 90;
-	["TouchTransmitter"] = 38;
-	["CornerWedgePart"] = 2;
-	["PathfindingService"] = 38;
-	["SpringConstraint"] = 90;
-	["Fire"] = 62;
-	["Pants"] = 45;
-	["NumberValue"] = 5;
-	["TestService"] = 69;
-	["Motor6D"] = 35;
-	["Motor"] = 35;
-	["CylindricalConstraint"] = 90;
-	["MarketplaceService"] = 47;
-	["CoreScript"] = 19;
-	["CylinderMesh"] = 9;
-	["ConeHandleAdornment"] = 55;
-	["SunRaysEffect"] = 91;
-	["LocalScript"] = 19;
-	["Weld"] = 35;
-	["Attachment"] = 35;
-	["BoolValue"] = 5;
-	["Dialog"] = 63;
-	["Pose"] = 61;
-	["Decal"] = 8;
-	["Hat"] = 46;
-	["AnimationTrack"] = 61;
-	["ClickDetector"] = 42;
-	["Frame"] = 49;
-	["LogService"] = 88;
-	["FileMesh"] = 9;
-	["InsertService"] = 73;
-	["HingeConstraint"] = 90;
-	["Message"] = 34;
-	["Player"] = 13;
-	["ContextActionService"] = 42;
-	["ContentProvider"] = 73;
-	["BodyPosition"] = 15;
-	["BoxHandleAdornment"] = 55;
-	["ScrollingFrame"] = 49;
-	["Keyframe"] = 61;
+    ["BadgeService"] = 76,
+    ["Humanoid"] = 10,
+    ["GuiService"] = 48,
+    ["CylinderHandleAdornment"] = 55,
+    ["BallSocketConstraint"] = 90,
+    ["BrickColorValue"] = 5,
+    ["Accoutrement"] = 33,
+    ["AdService"] = 74,
+    ["AssetService"] = 73,
+    ["GuiMain"] = 48,
+    ["ImageButton"] = 53,
+    ["HapticService"] = 85,
+    ["DialogChoice"] = 64,
+    ["Handles"] = 54,
+    ["ReflectionMetadataClasses"] = 87,
+    ["JointInstance"] = 35,
+    ["AnimationController"] = 61,
+    ["RemoteEvent"] = 81,
+    ["CollectionService"] = 31,
+    ["Smoke"] = 60,
+    ["Configuration"] = 59,
+    ["KeyframeSequenceProvider"] = 61,
+    ["Accessory"] = 33,
+    ["SelectionPointLasso"] = 58,
+    ["GamePassService"] = 20,
+    ["CFrameValue"] = 5,
+    ["TextureTrail"] = 5,
+    ["ImageLabel"] = 50,
+    ["ReflectionMetadataMember"] = 87,
+    ["Animation"] = 61,
+    ["IntConstrainedValue"] = 5,
+    ["HttpService"] = 77,
+    ["PointLight"] = 14,
+    ["Model"] = 3,
+    ["DoubleConstrainedValue"] = 5,
+    ["Snap"] = 35,
+    ["BodyAngularVelocity"] = 15,
+    ["VelocityMotor"] = 35,
+    ["RocketPropulsion"] = 15,
+    ["SurfaceSelection"] = 56,
+    ["CoreGui"] = 47,
+    ["Part"] = 2,
+    ["ReplicatedFirst"] = 73,
+    ["BindableEvent"] = 68,
+    ["SelectionPartLasso"] = 58,
+    ["NegateOperation"] = 79,
+    ["PyramidPart"] = 2,
+    ["ArcHandles"] = 57,
+    ["Hint"] = 34,
+    ["Players"] = 22,
+    ["Script"] = 7,
+    ["ParallelRampPart"] = 2,
+    ["RayValue"] = 5,
+    ["LineHandleAdornment"] = 55,
+    ["Camera"] = 6,
+    ["RunService"] = 67,
+    ["BodyForce"] = 15,
+    ["KeyframeSequence"] = 61,
+    ["ServerScriptService"] = 1,
+    ["BillboardGui"] = 65,
+    ["BodyThrust"] = 15,
+    ["RemoteFunction"] = 80,
+    ["Team"] = 25,
+    ["Sound"] = 12,
+    ["GuiButton"] = 53,
+    ["Workspace"] = 20,
+    ["Lighting"] = 14,
+    ["JointsService"] = 35,
+    ["BlurEffect"] = 91,
+    ["WedgePart"] = 2,
+    ["BloomEffect"] = 91,
+    ["ReflectionMetadata"] = 87,
+    ["Vector3Value"] = 5,
+    ["PointsService"] = 84,
+    ["UserInputService"] = 85,
+    ["Sparkles"] = 43,
+    ["BodyGyro"] = 15,
+    ["Rotate"] = 35,
+    ["HopperBin"] = 23,
+    ["ForceField"] = 38,
+    ["Tool"] = 18,
+    ["Texture"] = 11,
+    ["Teams"] = 24,
+    ["ReflectionMetadataFunctions"] = 87,
+    ["RodConstraint"] = 90,
+    ["Folder"] = 71,
+    ["BodyVelocity"] = 15,
+    ["Shirt"] = 44,
+    ["SlidingBallConstraint"] = 90,
+    ["Animator"] = 61,
+    ["TextButton"] = 52,
+    ["Color3Value"] = 5,
+    ["TextBox"] = 52,
+    ["NetworkReplicator"] = 30,
+    ["Platform"] = 36,
+    ["TerrainRegion"] = 66,
+    ["SkateboardPlatform"] = 36,
+    ["Seat"] = 36,
+    ["Terrain"] = 66,
+    ["Explosion"] = 37,
+    ["BlockMesh"] = 9,
+    ["TeleportService"] = 82,
+    ["PlayerGui"] = 47,
+    ["TextLabel"] = 51,
+    ["SurfaceLight"] = 14,
+    ["SurfaceGui"] = 65,
+    ["Debris"] = 31,
+    ["FlagStand"] = 40,
+    ["StarterPack"] = 21,
+    ["BindableFunction"] = 67,
+    ["ReflectionMetadataCallbacks"] = 87,
+    ["NetworkClient"] = 17,
+    ["ModuleScript"] = 72,
+    ["Flag"] = 39,
+    ["Status"] = 3,
+    ["ParticleEmitter"] = 70,
+    ["StarterPlayer"] = 89,
+    ["StringValue"] = 5,
+    ["ObjectValue"] = 5,
+    ["CharacterMesh"] = 61,
+    ["StarterGui"] = 47,
+    ["ReplicatedStorage"] = 73,
+    ["StarterCharacterScripts"] = 83,
+    ["NetworkServer"] = 16,
+    ["Backpack"] = 21,
+    ["ReflectionMetadataEnum"] = 87,
+    ["StarterPlayerScripts"] = 83,
+    ["SpotLight"] = 14,
+    ["CustomEventReceiver"] = 5,
+    ["SphereHandleAdornment"] = 55,
+    ["SoundService"] = 32,
+    ["SpecialMesh"] = 9,
+    ["SpawnLocation"] = 26,
+    ["PlayerScripts"] = 83,
+    ["PartPairLasso"] = 58,
+    ["ColorCorrectionEffect"] = 91,
+    ["UnionOperation"] = 78,
+    ["Sky"] = 29,
+    ["MoveToConstraint"] = 90,
+    ["RopeConstraint"] = 90,
+    ["RightAngleRampPart"] = 2,
+    ["ShirtGraphic"] = 41,
+    ["ScreenGui"] = 48,
+    ["SelectionSphere"] = 55,
+    ["RotateV"] = 35,
+    ["SelectionBox"] = 55,
+    ["VehicleSeat"] = 36,
+    ["CustomEvent"] = 5,
+    ["Chat"] = 34,
+    ["ServerStorage"] = 75,
+    ["Selection"] = 56,
+    ["IntValue"] = 5,
+    ["RotateP"] = 35,
+    ["FloorWire"] = 5,
+    ["TrussPart"] = 2,
+    ["StarterGear"] = 21,
+    ["ReflectionMetadataYieldFunctions"] = 87,
+    ["ReflectionMetadataProperties"] = 87,
+    ["ReflectionMetadataEvents"] = 87,
+    ["ReflectionMetadataEnums"] = 87,
+    ["ReflectionMetadataEnumItem"] = 87,
+    ["ReflectionMetadataClass"] = 87,
+    ["PrismPart"] = 2,
+    ["BinaryStringValue"] = 5,
+    ["Glue"] = 35,
+    ["PrismaticConstraint"] = 90,
+    ["TouchTransmitter"] = 38,
+    ["CornerWedgePart"] = 2,
+    ["PathfindingService"] = 38,
+    ["SpringConstraint"] = 90,
+    ["Fire"] = 62,
+    ["Pants"] = 45,
+    ["NumberValue"] = 5,
+    ["TestService"] = 69,
+    ["Motor6D"] = 35,
+    ["Motor"] = 35,
+    ["CylindricalConstraint"] = 90,
+    ["MarketplaceService"] = 47,
+    ["CoreScript"] = 19,
+    ["CylinderMesh"] = 9,
+    ["ConeHandleAdornment"] = 55,
+    ["SunRaysEffect"] = 91,
+    ["LocalScript"] = 19,
+    ["Weld"] = 35,
+    ["Attachment"] = 35,
+    ["BoolValue"] = 5,
+    ["Dialog"] = 63,
+    ["Pose"] = 61,
+    ["Decal"] = 8,
+    ["Hat"] = 46,
+    ["AnimationTrack"] = 61,
+    ["ClickDetector"] = 42,
+    ["Frame"] = 49,
+    ["LogService"] = 88,
+    ["FileMesh"] = 9,
+    ["InsertService"] = 73,
+    ["HingeConstraint"] = 90,
+    ["Message"] = 34,
+    ["Player"] = 13,
+    ["ContextActionService"] = 42,
+    ["ContentProvider"] = 73,
+    ["BodyPosition"] = 15,
+    ["BoxHandleAdornment"] = 55,
+    ["ScrollingFrame"] = 49,
+    ["Keyframe"] = 61
 }
 
 function LoadIcon(service, frame, numb)
-	if Instances[service] or numb then
-		local row = 1
-		local col = 0
-		if numb then
-			for i = 1,numb do
-				if i > colSize*row then
-					col = 1
-					row = row+1
-				else
-					col = col+1
-				end
-			end
-		else
-			for i = 1,Instances[service] do
-				if i > colSize*row then
-					col = 1
-					row = row+1
-				else
-					col = col+1
-				end
-			end
-		end
-		frame.IconMap.Position = UDim2.new(0,(-3+(-18*col))+18,0,(-3+(-18*row))+18)
-	end
+    if Instances[service] or numb then
+        local row = 1
+        local col = 0
+        if numb then
+            for i = 1, numb do
+                if i > colSize * row then
+                    col = 1
+                    row = row + 1
+                else
+                    col = col + 1
+                end
+            end
+        else
+            for i = 1, Instances[service] do
+                if i > colSize * row then
+                    col = 1
+                    row = row + 1
+                else
+                    col = col + 1
+                end
+            end
+        end
+        frame.IconMap.Position = UDim2.new(0, (-3 + (-18 * col)) + 18, 0,
+                                           (-3 + (-18 * row)) + 18)
+    end
 end
 
 Exit.MouseEnter:Connect(function()
-	game:GetService("TweenService"):Create(Exit, TweenInfo.new(0.1), {
-		['ImageColor3'] = Color3.fromRGB(200,200,200);
-	}):Play();
+    game:GetService("TweenService"):Create(Exit, TweenInfo.new(0.1), {
+        ['ImageColor3'] = Color3.fromRGB(200, 200, 200)
+    }):Play();
 end)
 
 Exit.MouseLeave:Connect(function()
-	game:GetService("TweenService"):Create(Exit, TweenInfo.new(0.1), {
-		['ImageColor3'] = Color3.fromRGB(255,255,255);
-	}):Play();
+    game:GetService("TweenService"):Create(Exit, TweenInfo.new(0.1), {
+        ['ImageColor3'] = Color3.fromRGB(255, 255, 255)
+    }):Play();
 end)
 
 Exit.MouseButton1Down:Connect(function()
-	Opened = false
-	Hub:TweenPosition(UDim2.new(0.5,0,1.1,0),"InOut","Sine",0.25,true)
+    Opened = false
+    Hub:TweenPosition(UDim2.new(0.5, 0, 1.1, 0), "InOut", "Sine", 0.25, true)
 end)
 
 Hub.MouseEnter:Connect(function()
-	game:GetService("TweenService"):Create(Hub, TweenInfo.new(0.1), {
-		['BackgroundColor3'] = Color3.fromRGB(50,50,50);
-	}):Play();
+    game:GetService("TweenService"):Create(Hub, TweenInfo.new(0.1), {
+        ['BackgroundColor3'] = Color3.fromRGB(50, 50, 50)
+    }):Play();
 end)
 
 Hub.MouseLeave:Connect(function()
-	game:GetService("TweenService"):Create(Hub, TweenInfo.new(0.1), {
-		['BackgroundColor3'] = Color3.fromRGB(40, 40, 40);
-	}):Play();
+    game:GetService("TweenService"):Create(Hub, TweenInfo.new(0.1), {
+        ['BackgroundColor3'] = Color3.fromRGB(40, 40, 40)
+    }):Play();
 end)
 
 local CHO = false
 local BTH = false
 
-OutputTab.ClearHolder.MouseEnter:Connect(function()
-	CHO = true
-end)
+OutputTab.ClearHolder.MouseEnter:Connect(function() CHO = true end)
 
-OutputTab.ClearHolder.MouseLeave:Connect(function()
-	CHO = false
-end)
+OutputTab.ClearHolder.MouseLeave:Connect(function() CHO = false end)
 
 OutputTab.MouseEnter:Connect(function()
-	BTH = true
-	OutputTab.ClearHolder.Clear:TweenPosition(UDim2.new(0,0,0.5,-7),"InOut","Sine",0.2,true)
-	repeat wait() until not BTH or not CHO
-	OutputTab.ClearHolder.Clear:TweenPosition(UDim2.new(0,0,0,-7),"InOut","Sine",0.2,true)
+    BTH = true
+    OutputTab.ClearHolder.Clear:TweenPosition(UDim2.new(0, 0, 0.5, -7), "InOut",
+                                              "Sine", 0.2, true)
+    repeat wait() until not BTH or not CHO
+    OutputTab.ClearHolder.Clear:TweenPosition(UDim2.new(0, 0, 0, -7), "InOut",
+                                              "Sine", 0.2, true)
 end)
 
 local SH = false
 local RH = false
 
-RemoteTab.Spys.MouseEnter:Connect(function()
-	SH = true
-end)
+RemoteTab.Spys.MouseEnter:Connect(function() SH = true end)
 
-RemoteTab.Spys.MouseLeave:Connect(function()
-	SH = false
-end)
+RemoteTab.Spys.MouseLeave:Connect(function() SH = false end)
 
 RemoteTab.MouseEnter:Connect(function()
-	RH = true
-	RemoteTab.Spys.Spyer:TweenPosition(UDim2.new(0,0,0.5,-7),"InOut","Sine",0.2,true)
-	repeat wait() until not SH or not RH
-	RemoteTab.Spys.Spyer:TweenPosition(UDim2.new(0,0,0,-7),"InOut","Sine",0.2,true)
+    RH = true
+    RemoteTab.Spys.Spyer:TweenPosition(UDim2.new(0, 0, 0.5, -7), "InOut",
+                                       "Sine", 0.2, true)
+    repeat wait() until not SH or not RH
+    RemoteTab.Spys.Spyer:TweenPosition(UDim2.new(0, 0, 0, -7), "InOut", "Sine",
+                                       0.2, true)
 end)
 
 function OpenUI()
-	if Opened then
-		Opened = not Opened
-		Hub:TweenPosition(UDim2.new(0.5,0,1.1,0),"InOut","Sine",0.25,true)
-	else
-		Opened = not Opened
-		Hub:TweenPosition(UDim2.new(0.5,0,0.35,0),"InOut","Sine",0.25,true)
-	end
+    if Opened then
+        Opened = not Opened
+        Hub:TweenPosition(UDim2.new(0.5, 0, 1.1, 0), "InOut", "Sine", 0.25, true)
+    else
+        Opened = not Opened
+        Hub:TweenPosition(UDim2.new(0.5, 0, 0.35, 0), "InOut", "Sine", 0.25,
+                          true)
+    end
 end
 
-plr.Chatted:Connect(function(msg)
-	if msg:lower() == "/e open" then
-		OpenUI()
-	end
-end)
+plr.Chatted:Connect(
+    function(msg) if msg:lower() == "/e open" then OpenUI() end end)
 
-game:GetService("UserInputService").InputBegan:Connect(function(input, proc)
-	if not proc and input.KeyCode == Enum.KeyCode.F4 then
-		OpenUI()
-	end
-end)
+game:GetService("UserInputService").InputBegan:Connect(
+    function(input, proc)
+        if not proc and input.KeyCode == Enum.KeyCode.F4 then OpenUI() end
+    end)
 
-function SwitchTab(tab,x)
-	Tabs.TabLine:TweenPosition(UDim2.new(x,0,1,0),"InOut","Sine",0.25,true)
-	if tab == "Remotes" then
-		TF.Remotes:TweenPosition(UDim2.new(0,0,0,0),"InOut","Sine",0.25,true)
-		TF.Output:TweenPosition(UDim2.new(1,0,0,0),"InOut","Sine",0.25,true)
-		TF.Explorer:TweenPosition(UDim2.new(2,0,0,0),"InOut","Sine",0.25,true)
-		TF.R2S:TweenPosition(UDim2.new(3,0,0,0),"InOut","Sine",0.25,true)
-	elseif tab == "Output" then
-		TF.Remotes:TweenPosition(UDim2.new(-1,0,0,0),"InOut","Sine",0.25,true)
-		TF.Output:TweenPosition(UDim2.new(0,0,0,0),"InOut","Sine",0.25,true)
-		TF.Explorer:TweenPosition(UDim2.new(1,0,0,0),"InOut","Sine",0.25,true)
-		TF.R2S:TweenPosition(UDim2.new(2,0,0,0),"InOut","Sine",0.25,true)
-	elseif tab == "Explorer" then
-		TF.Remotes:TweenPosition(UDim2.new(-2,0,0,0),"InOut","Sine",0.25,true)
-		TF.Output:TweenPosition(UDim2.new(-1,0,0,0),"InOut","Sine",0.25,true)
-		TF.Explorer:TweenPosition(UDim2.new(0,0,0,0),"InOut","Sine",0.25,true)
-		TF.R2S:TweenPosition(UDim2.new(1,0,0,0),"InOut","Sine",0.25,true)
-	elseif tab == "R2S" then
-		TF.Remotes:TweenPosition(UDim2.new(-3,0,0,0),"InOut","Sine",0.25,true)
-		TF.Output:TweenPosition(UDim2.new(-2,0,0,0),"InOut","Sine",0.25,true)
-		TF.Explorer:TweenPosition(UDim2.new(-1,0,0,0),"InOut","Sine",0.25,true)
-		TF.R2S:TweenPosition(UDim2.new(0,0,0,0),"InOut","Sine",0.25,true)
-	end
+function SwitchTab(tab, x)
+    Tabs.TabLine:TweenPosition(UDim2.new(x, 0, 1, 0), "InOut", "Sine", 0.25,
+                               true)
+    if tab == "Remotes" then
+        TF.Remotes:TweenPosition(UDim2.new(0, 0, 0, 0), "InOut", "Sine", 0.25,
+                                 true)
+        TF.Output:TweenPosition(UDim2.new(1, 0, 0, 0), "InOut", "Sine", 0.25,
+                                true)
+        TF.Explorer:TweenPosition(UDim2.new(2, 0, 0, 0), "InOut", "Sine", 0.25,
+                                  true)
+        TF.R2S:TweenPosition(UDim2.new(3, 0, 0, 0), "InOut", "Sine", 0.25, true)
+    elseif tab == "Output" then
+        TF.Remotes:TweenPosition(UDim2.new(-1, 0, 0, 0), "InOut", "Sine", 0.25,
+                                 true)
+        TF.Output:TweenPosition(UDim2.new(0, 0, 0, 0), "InOut", "Sine", 0.25,
+                                true)
+        TF.Explorer:TweenPosition(UDim2.new(1, 0, 0, 0), "InOut", "Sine", 0.25,
+                                  true)
+        TF.R2S:TweenPosition(UDim2.new(2, 0, 0, 0), "InOut", "Sine", 0.25, true)
+    elseif tab == "Explorer" then
+        TF.Remotes:TweenPosition(UDim2.new(-2, 0, 0, 0), "InOut", "Sine", 0.25,
+                                 true)
+        TF.Output:TweenPosition(UDim2.new(-1, 0, 0, 0), "InOut", "Sine", 0.25,
+                                true)
+        TF.Explorer:TweenPosition(UDim2.new(0, 0, 0, 0), "InOut", "Sine", 0.25,
+                                  true)
+        TF.R2S:TweenPosition(UDim2.new(1, 0, 0, 0), "InOut", "Sine", 0.25, true)
+    elseif tab == "R2S" then
+        TF.Remotes:TweenPosition(UDim2.new(-3, 0, 0, 0), "InOut", "Sine", 0.25,
+                                 true)
+        TF.Output:TweenPosition(UDim2.new(-2, 0, 0, 0), "InOut", "Sine", 0.25,
+                                true)
+        TF.Explorer:TweenPosition(UDim2.new(-1, 0, 0, 0), "InOut", "Sine", 0.25,
+                                  true)
+        TF.R2S:TweenPosition(UDim2.new(0, 0, 0, 0), "InOut", "Sine", 0.25, true)
+    end
 end
 
-for i,v in pairs(Tabs:GetChildren()) do
-	if v:IsA("TextButton") then
-		v.MouseButton1Down:Connect(function()
-			SwitchTab(v.Name,v.Position.X.Scale)
-		end)
-	end
+for i, v in pairs(Tabs:GetChildren()) do
+    if v:IsA("TextButton") then
+        v.MouseButton1Down:Connect(function()
+            SwitchTab(v.Name, v.Position.X.Scale)
+        end)
+    end
 end
 
 local Ignores = {
-	["CharacterSoundEvent"] = true;
-	["MovementUpdate"] = true;
-	["OnNewMessage"] = true;
-	["OnMessageDoneFiltering"] = true;
-	["OnNewSystemMessage"] = true;
-	["OnChannelJoined"] = true;
-	["OnChannelLeft"] = true;
-	["OnMuted"] = true;
-	["OnUnmuted"] = true;
-	["OnMainChannelSet"] = true;
-	["ChannelNameColorUpdated"] = true;
-	["SayMessageRequest"] = true;
-	["SetBlockedUserIdsRequest"] = true;
-	["GetInitDataRequest"] = true;
-	["MutePlayerRequest"] = true;
-	["UnMutePlayerRequest"] = true;
-	["DefaultServerSoundEvent"] = true;
-	["AddCharacterLoadedEvent"] = true;
-	["RemoveCharacterEvent"] = true;
-	["SoundDispatcher"] = true;
-	["GamepadNotifications"] = true;
-	["SendNotificationInfo"] = true;
-	["FollowRelationshipChanged"] = true;
-	["NewFollower"] = true;
-	["GetFollowRelationships"] = true;
-	["SetPlayerBlockList"] = true;
-	["UpdatePlayerBlockList"] = true;
-	["SetDialogInUse"] = true;
-	["GetServerVersion"] = true;
+    ["CharacterSoundEvent"] = true,
+    ["MovementUpdate"] = true,
+    ["OnNewMessage"] = true,
+    ["OnMessageDoneFiltering"] = true,
+    ["OnNewSystemMessage"] = true,
+    ["OnChannelJoined"] = true,
+    ["OnChannelLeft"] = true,
+    ["OnMuted"] = true,
+    ["OnUnmuted"] = true,
+    ["OnMainChannelSet"] = true,
+    ["ChannelNameColorUpdated"] = true,
+    ["SayMessageRequest"] = true,
+    ["SetBlockedUserIdsRequest"] = true,
+    ["GetInitDataRequest"] = true,
+    ["MutePlayerRequest"] = true,
+    ["UnMutePlayerRequest"] = true,
+    ["DefaultServerSoundEvent"] = true,
+    ["AddCharacterLoadedEvent"] = true,
+    ["RemoveCharacterEvent"] = true,
+    ["SoundDispatcher"] = true,
+    ["GamepadNotifications"] = true,
+    ["SendNotificationInfo"] = true,
+    ["FollowRelationshipChanged"] = true,
+    ["NewFollower"] = true,
+    ["GetFollowRelationships"] = true,
+    ["SetPlayerBlockList"] = true,
+    ["UpdatePlayerBlockList"] = true,
+    ["SetDialogInUse"] = true,
+    ["GetServerVersion"] = true
 }
 
 local RemotesToSpy = {}
@@ -1755,222 +1771,230 @@ local SpyingRemotes = {}
 local BiggestTB = 0;
 
 function UpdateOutput()
-	Output.OutputWindow.CanvasSize = UDim2.new(0,89+BiggestTB,0,(#Output.OutputWindow:GetChildren()*20)+1)
+    Output.OutputWindow.CanvasSize = UDim2.new(0, 89 + BiggestTB, 0,
+                                               (#Output.OutputWindow:GetChildren() *
+                                                   20) + 1)
 end
 
 function ClearOutput()
-	BiggestTB = 0
-	Output.OutputWindow:ClearAllChildren()
-	UpdateOutput()
+    BiggestTB = 0
+    Output.OutputWindow:ClearAllChildren()
+    UpdateOutput()
 end
 
-OutputTab.ClearHolder.Clear.MouseButton1Down:Connect(function()
-	BTH = false
-	CHO = false
-	ClearOutput()
-end)
+OutputTab.ClearHolder.Clear.MouseButton1Down:Connect(
+    function()
+        BTH = false
+        CHO = false
+        ClearOutput()
+    end)
 
 local TextToCopy = ""
 
-function LoadR2S(obj,args)
-	R2S.Warning.Visible = false
-	R2S.Window.Visible = true
-	
-	local InstancesTable = {}
-	local String = ""
-	for i in string.gmatch(obj:GetFullName(),".") do
-		if i == "." then
-			InstancesTable[#InstancesTable+1] = String
-			String = ""
-		else
-			String = String .. i
-		end
-	end
-	InstancesTable[#InstancesTable+1] = String
-	
-	local TextToLoad = "local Remote = game"
-	
-	for i,v in pairs(InstancesTable) do
-		if i == #InstancesTable then
-			TextToLoad = TextToLoad.."['"..v.."']"
-		else
-			TextToLoad = TextToLoad.."."..v
-		end
-	end
-	
-	TextToLoad = TextToLoad.."\n\nlocal Arguments = "
-	
-	local function GenerateScript()
-		local Tabs = 0
-		local function AddTabs()
-			if Tabs == 0 then return end
-			for i = 0,Tabs do
-				TextToLoad = TextToLoad.."    "
-			end
-		end
-		local IgnoreCommaBreak = false
-		local last = ""
-		for i in string.gmatch(args,".") do
-			if i == "{" then
-				TextToLoad = TextToLoad.."{\n"
-				Tabs = Tabs + 1
-				AddTabs()
-			elseif i == "}" then
-				TextToLoad = TextToLoad.."\n"
-				Tabs = Tabs - 1
-				AddTabs()
-				TextToLoad = TextToLoad.."}"
-			elseif i == "(" then
-				IgnoreCommaBreak = true
-				TextToLoad = TextToLoad..i
-			elseif i == ")" and IgnoreCommaBreak then
-				IgnoreCommaBreak = false
-				TextToLoad = TextToLoad..i
-			elseif i == "," and not IgnoreCommaBreak then
-				TextToLoad = TextToLoad..",\n"
-				AddTabs()
-			elseif i == " " and last == "," then
-				--lol goteeem im doing nothing here cuz it's mainly for visuals
-			else
-				TextToLoad = TextToLoad..i
-			end
-			last = i
-		end
-	end
-	GenerateScript()
-	TextToLoad = TextToLoad.."\n\nRemote:"..((obj.ClassName == "RemoteEvent" and "FireServer") or (obj.ClassName == "RemoteFunction" and "InvokeServer") or (obj.ClassName == "BindableEvent" and "Fire") or (obj.ClassName == "BindableFunction" and "Invoke")).."(unpack(Arguments))"
-	
-	TextToCopy = TextToLoad
-	
-	R2S.Window.ScriptWindow.RemoteScript.Text = TextToLoad
-	R2S.Window.ScriptWindow.CanvasSize = UDim2.new(0,R2S.Window.ScriptWindow.RemoteScript.TextBounds.X+6,0,R2S.Window.ScriptWindow.RemoteScript.TextBounds.Y+6)
+function LoadR2S(obj, args)
+    R2S.Warning.Visible = false
+    R2S.Window.Visible = true
+
+    local InstancesTable = {}
+    local String = ""
+    for i in string.gmatch(obj:GetFullName(), ".") do
+        if i == "." then
+            InstancesTable[#InstancesTable + 1] = String
+            String = ""
+        else
+            String = String .. i
+        end
+    end
+    InstancesTable[#InstancesTable + 1] = String
+
+    local TextToLoad = "local Remote = game"
+
+    for i, v in pairs(InstancesTable) do
+        if i == #InstancesTable then
+            TextToLoad = TextToLoad .. "['" .. v .. "']"
+        else
+            TextToLoad = TextToLoad .. "." .. v
+        end
+    end
+
+    TextToLoad = TextToLoad .. "\n\nlocal Arguments = "
+
+    local function GenerateScript()
+        local Tabs = 0
+        local function AddTabs()
+            if Tabs == 0 then return end
+            for i = 0, Tabs do TextToLoad = TextToLoad .. "    " end
+        end
+        local IgnoreCommaBreak = false
+        local last = ""
+        for i in string.gmatch(args, ".") do
+            if i == "{" then
+                TextToLoad = TextToLoad .. "{\n"
+                Tabs = Tabs + 1
+                AddTabs()
+            elseif i == "}" then
+                TextToLoad = TextToLoad .. "\n"
+                Tabs = Tabs - 1
+                AddTabs()
+                TextToLoad = TextToLoad .. "}"
+            elseif i == "(" then
+                IgnoreCommaBreak = true
+                TextToLoad = TextToLoad .. i
+            elseif i == ")" and IgnoreCommaBreak then
+                IgnoreCommaBreak = false
+                TextToLoad = TextToLoad .. i
+            elseif i == "," and not IgnoreCommaBreak then
+                TextToLoad = TextToLoad .. ",\n"
+                AddTabs()
+            elseif i == " " and last == "," then
+                -- lol goteeem im doing nothing here cuz it's mainly for visuals
+            else
+                TextToLoad = TextToLoad .. i
+            end
+            last = i
+        end
+    end
+    GenerateScript()
+    TextToLoad = TextToLoad .. "\n\nRemote:" ..
+                     ((obj.ClassName == "RemoteEvent" and "FireServer") or
+                         (obj.ClassName == "RemoteFunction" and "InvokeServer") or
+                         (obj.ClassName == "BindableEvent" and "Fire") or
+                         (obj.ClassName == "BindableFunction" and "Invoke")) ..
+                     "(unpack(Arguments))"
+
+    TextToCopy = TextToLoad
+
+    R2S.Window.ScriptWindow.RemoteScript.Text = TextToLoad
+    R2S.Window.ScriptWindow.CanvasSize =
+        UDim2.new(0, R2S.Window.ScriptWindow.RemoteScript.TextBounds.X + 6, 0,
+                  R2S.Window.ScriptWindow.RemoteScript.TextBounds.Y + 6)
 end
 
 R2S.Window.CopyClip.MouseEnter:Connect(function()
-	game:GetService("TweenService"):Create(R2S.Window.CopyClip, TweenInfo.new(0.1), {
-		['BackgroundColor3'] = Color3.fromRGB(60, 60, 60);
-	}):Play();
+    game:GetService("TweenService"):Create(R2S.Window.CopyClip,
+                                           TweenInfo.new(0.1), {
+        ['BackgroundColor3'] = Color3.fromRGB(60, 60, 60)
+    }):Play();
 end)
 
 R2S.Window.CopyClip.MouseLeave:Connect(function()
-	game:GetService("TweenService"):Create(R2S.Window.CopyClip, TweenInfo.new(0.1), {
-		['BackgroundColor3'] = Color3.fromRGB(50, 50, 50);
-	}):Play();
+    game:GetService("TweenService"):Create(R2S.Window.CopyClip,
+                                           TweenInfo.new(0.1), {
+        ['BackgroundColor3'] = Color3.fromRGB(50, 50, 50)
+    }):Play();
 end)
 
-R2S.Window.CopyClip.MouseButton1Down:Connect(function()
-	R2S.Window.CopyClip.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
-	game:GetService("TweenService"):Create(R2S.Window.CopyClip, TweenInfo.new(0.1), {
-		['BackgroundColor3'] = Color3.fromRGB(50, 50, 50);
-	}):Play();
-	if setclipboard then
-		setclipboard(TextToCopy)
-	elseif toclipboard then
-		toclipboard(TextToCopy)
-	elseif syn and syn.write_clipboard then
-		syn.write_clipboard(TextToCopy)
-	end
-end)
+R2S.Window.CopyClip.MouseButton1Down:Connect(
+    function()
+        R2S.Window.CopyClip.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+        game:GetService("TweenService"):Create(R2S.Window.CopyClip,
+                                               TweenInfo.new(0.1), {
+            ['BackgroundColor3'] = Color3.fromRGB(50, 50, 50)
+        }):Play();
+        if setclipboard then
+            setclipboard(TextToCopy)
+        elseif toclipboard then
+            toclipboard(TextToCopy)
+        elseif syn and syn.write_clipboard then
+            syn.write_clipboard(TextToCopy)
+        end
+    end)
 
 local ViewDB = false
 
-function AddToOutput(obj,args)
-	local temp = Supplies.RemoteOutputTemplate:Clone()
-	temp.RemoteName.Text = obj.Name.." | Args: "..args
-	LoadIcon(obj.ClassName,temp.Icon)
-	temp.Position = UDim2.new(0,5,0,#Output.OutputWindow:GetChildren()*20)
-	temp.Parent = Output.OutputWindow
-	temp.R2S.Position = UDim2.new(0,25+temp.RemoteName.TextBounds.X,0,0)
-	if temp.RemoteName.TextBounds.X >= BiggestTB then
-		BiggestTB = temp.RemoteName.TextBounds.X
-	end
-	UpdateOutput()
-	temp.R2S.MouseEnter:Connect(function()
-		game:GetService("TweenService"):Create(temp.R2S, TweenInfo.new(0.1), {
-			['BackgroundColor3'] = Color3.fromRGB(75,75,75);
-		}):Play();
-	end)
-	temp.R2S.MouseLeave:Connect(function()
-		game:GetService("TweenService"):Create(temp.R2S, TweenInfo.new(0.1), {
-			['BackgroundColor3'] = Color3.fromRGB(60, 60, 60);
-		}):Play();
-	end)
-	temp.R2S.MouseButton1Down:Connect(function()
-		if not ViewDB then
-			ViewDB = true
-			LoadR2S(obj,args)
-			SwitchTab("R2S",0.75)
-			wait(0.5)
-			ViewDB = false
-		end
-	end)
+function AddToOutput(obj, args)
+    local temp = Supplies.RemoteOutputTemplate:Clone()
+    temp.RemoteName.Text = obj.Name .. " | Args: " .. args
+    LoadIcon(obj.ClassName, temp.Icon)
+    temp.Position = UDim2.new(0, 5, 0, #Output.OutputWindow:GetChildren() * 20)
+    temp.Parent = Output.OutputWindow
+    temp.R2S.Position = UDim2.new(0, 25 + temp.RemoteName.TextBounds.X, 0, 0)
+    if temp.RemoteName.TextBounds.X >= BiggestTB then
+        BiggestTB = temp.RemoteName.TextBounds.X
+    end
+    UpdateOutput()
+    temp.R2S.MouseEnter:Connect(function()
+        game:GetService("TweenService"):Create(temp.R2S, TweenInfo.new(0.1), {
+            ['BackgroundColor3'] = Color3.fromRGB(75, 75, 75)
+        }):Play();
+    end)
+    temp.R2S.MouseLeave:Connect(function()
+        game:GetService("TweenService"):Create(temp.R2S, TweenInfo.new(0.1), {
+            ['BackgroundColor3'] = Color3.fromRGB(60, 60, 60)
+        }):Play();
+    end)
+    temp.R2S.MouseButton1Down:Connect(function()
+        if not ViewDB then
+            ViewDB = true
+            LoadR2S(obj, args)
+            SwitchTab("R2S", 0.75)
+            wait(0.5)
+            ViewDB = false
+        end
+    end)
 end
 
---Do Spy stuff boyssssss
+-- Do Spy stuff boyssssss
 
 local IgnoreThis = {
-    GetSetting = true;
-    GetSelection = true;
-    SelectionChanged = true;
-    GetAwaiting = true;
+    GetSetting = true,
+    GetSelection = true,
+    SelectionChanged = true,
+    GetAwaiting = true
 }
 
 function GetType(item)
-	if type(item) == "string" then
-		return "\""..item.."\""
-	elseif type(item) == "table" then
-		local str = "{"
-		local max = 0
-		local numb = 1
-		for i,v in pairs(item) do
-			max = max+1
-		end
-		for i,v in pairs(item) do
-			if numb == max then
-				str = str.."["..GetType(i).."] = "..GetType(v)
-			else
-				str = str.."["..GetType(i).."] = "..GetType(v)..", "
-			end
-			numb = numb + 1
-		end
-		str = str.."}"
-		return str
-	elseif type(item) == "userdata" then
-		local a,b = pcall(function()
-			return item.ClassName 
-		end)
-		if a then
-			return item:GetFullName()
-		else
-			if tostring(b):match("not a valid member of %w+") then
-				local c, d = tostring(b):match("not a valid member of %w+"):find("of ")
-				local class = tostring(b):match("not a valid member of %w+"):sub(d+1)
-				return class..".new(".. tostring(item) ..")"
-			end
-		end
-	else
-		return tostring(item)
-	end
+    if type(item) == "string" then
+        return "\"" .. item .. "\""
+    elseif type(item) == "table" then
+        local str = "{"
+        local max = 0
+        local numb = 1
+        for i, v in pairs(item) do max = max + 1 end
+        for i, v in pairs(item) do
+            if numb == max then
+                str = str .. "[" .. GetType(i) .. "] = " .. GetType(v)
+            else
+                str = str .. "[" .. GetType(i) .. "] = " .. GetType(v) .. ", "
+            end
+            numb = numb + 1
+        end
+        str = str .. "}"
+        return str
+    elseif type(item) == "userdata" then
+        local a, b = pcall(function() return item.ClassName end)
+        if a then
+            return item:GetFullName()
+        else
+            if tostring(b):match("not a valid member of %w+") then
+                local c, d = tostring(b):match("not a valid member of %w+")
+                                 :find("of ")
+                local class = tostring(b):match("not a valid member of %w+")
+                                  :sub(d + 1)
+                return class .. ".new(" .. tostring(item) .. ")"
+            end
+        end
+    else
+        return tostring(item)
+    end
 end
 
 function ReturnArgs(...)
-	local args = {...}
-	local list = ""
-	local max = 0
-	local numb = 1
-	for i,v in pairs(args) do
-		max = max + 1
-	end
-	for i,v in pairs(args) do
-		if numb == max then
-			list = list..GetType(v)
-		else
-			list = list..GetType(v)..", "
-		end
-		numb = numb + 1
-	end
-	list=list
-	return list
+    local args = {...}
+    local list = ""
+    local max = 0
+    local numb = 1
+    for i, v in pairs(args) do max = max + 1 end
+    for i, v in pairs(args) do
+        if numb == max then
+            list = list .. GetType(v)
+        else
+            list = list .. GetType(v) .. ", "
+        end
+        numb = numb + 1
+    end
+    list = list
+    return list
 end
 
 local mt = getrawmetatable(game)
@@ -1984,9 +2008,10 @@ end
 local protect = newcclosure or protect_function or function(f) return f end
 mt.__namecall = protect(function(self, ...)
     local args = {...}
-	table.remove(args)
+    table.remove(args)
 
-    if (not IgnoreThis[self.Name]) and SpyingRemotes[self] and RemoteIgnores[self.ClassName] then
+    if (not IgnoreThis[self.Name]) and SpyingRemotes[self] and
+        RemoteIgnores[self.ClassName] then
         AddToOutput(self, ReturnArgs(args));
     end
 
@@ -1994,301 +2019,328 @@ mt.__namecall = protect(function(self, ...)
 end)
 
 if replaceclosure then
-	local OldFireServer
-	local Hook = protect(function(self,...)
-		local args = {...}
-		
-		if (not IgnoreThis[self.Name]) and SpyingRemotes[self] then
-	        AddToOutput(self, ReturnArgs(args));
-	    end
-		
-	    return OldFireServer(self,...)
-	end)
-	
-	OldFireServer = replaceclosure(Instance.new("RemoteEvent").FireServer, Hook)
-	
-	local OldInvokeServer
-	local Hook2 = protect(function(self,...)
-		local args = {...}
-		
-		if (not IgnoreThis[self.Name]) and SpyingRemotes[self] then
-	        AddToOutput(self, ReturnArgs(args));
-	    end
-		
-	    return OldInvokeServer(self,...)
-	end)
-	
-	OldInvokeServer = replaceclosure(Instance.new("RemoteFunction").InvokeServer, Hook2)
+    local OldFireServer
+    local Hook = protect(function(self, ...)
+        local args = {...}
+
+        if (not IgnoreThis[self.Name]) and SpyingRemotes[self] then
+            AddToOutput(self, ReturnArgs(args));
+        end
+
+        return OldFireServer(self, ...)
+    end)
+
+    OldFireServer = replaceclosure(Instance.new("RemoteEvent").FireServer, Hook)
+
+    local OldInvokeServer
+    local Hook2 = protect(function(self, ...)
+        local args = {...}
+
+        if (not IgnoreThis[self.Name]) and SpyingRemotes[self] then
+            AddToOutput(self, ReturnArgs(args));
+        end
+
+        return OldInvokeServer(self, ...)
+    end)
+
+    OldInvokeServer = replaceclosure(
+                          Instance.new("RemoteFunction").InvokeServer, Hook2)
 end
 ----------------------
 
 local BiggestR = 0;
 
 function UpdateRemotes()
-	Remotes.CanvasSize = UDim2.new(0,144+BiggestR,0,(#Remotes:GetChildren()-1)*20)
+    Remotes.CanvasSize = UDim2.new(0, 144 + BiggestR, 0,
+                                   (#Remotes:GetChildren() - 1) * 20)
 end
 
-function Spy(temp,bool)
-	if not bool then
-		temp.Spy.Text = "Spy"
-		game:GetService("TweenService"):Create(temp.Spy, TweenInfo.new(0.5), {
-			['TextColor3'] = Color3.fromRGB(255,255,255);
-		}):Play();
-	else
-		temp.Spy.Text = "Spying"
-		game:GetService("TweenService"):Create(temp.Spy, TweenInfo.new(0.5), {
-			['TextColor3'] = Color3.fromRGB(17, 170, 73);
-		}):Play();
-	end
+function Spy(temp, bool)
+    if not bool then
+        temp.Spy.Text = "Spy"
+        game:GetService("TweenService"):Create(temp.Spy, TweenInfo.new(0.5), {
+            ['TextColor3'] = Color3.fromRGB(255, 255, 255)
+        }):Play();
+    else
+        temp.Spy.Text = "Spying"
+        game:GetService("TweenService"):Create(temp.Spy, TweenInfo.new(0.5), {
+            ['TextColor3'] = Color3.fromRGB(17, 170, 73)
+        }):Play();
+    end
 end
 
 function LoadExplorer(obj)
-	Explorer.Window.ExplorerWindow:ClearAllChildren()
-	Explorer.Window.ExplorerWindow.CanvasSize = UDim2.new(0,0,0,0)
-	Explorer.Warning.Visible = false
-	Explorer.Window.Visible = true
-	local InstancesTable = {}
-	local String = ""
-	for i in string.gmatch(obj:GetFullName(),".") do
-		if i == "." then
-			InstancesTable[#InstancesTable+1] = String
-			String = ""
-		else
-			String = String .. i
-		end
-	end
-	InstancesTable[#InstancesTable+1] = String
-	local ClassTable = {}
-	local function Check(obj,pos)
-		if obj:FindFirstChild(InstancesTable[pos]) then
-			ClassTable[pos] = obj:FindFirstChild(InstancesTable[pos])
-			if InstancesTable[pos+1] then
-				Check(obj:FindFirstChild(InstancesTable[pos]),pos+1)
-			end
-		end
-	end
-	Check(game,1)
-	local last
-	for i,v in pairs(InstancesTable) do
-		local temp = Supplies.ExplorerTemplate:Clone()
-		temp.Name = v
-		temp.InstanceName.Text = v
-		LoadIcon(((ClassTable[i] and ClassTable[i].ClassName) or "Folder"),temp.Icon)
-		if ClassTable[i] then
-			if #ClassTable[i]:GetChildren() > 0 then
-				temp.Arrow.Visible = true
-			else
-				temp.Arrow.Visible = false
-			end
-		end
-		if last then
-			temp.Parent = last.Holder
-		else
-			temp.Parent = Explorer.Window.ExplorerWindow
-		end
-		temp.BG.Size = UDim2.new(0,temp.InstanceName.TextBounds.X+36,1,0)
-		temp.InstanceName.Size = UDim2.new(0,temp.InstanceName.TextBounds.X+10,1,0)
-		last = temp
-		temp.InstanceName.MouseEnter:Connect(function()
-			game:GetService("TweenService"):Create(temp.BG, TweenInfo.new(0.1), {
-				['BackgroundTransparency'] = 0.5;
-			}):Play();
-		end)
-		temp.InstanceName.MouseLeave:Connect(function()
-			game:GetService("TweenService"):Create(temp.BG, TweenInfo.new(0.1), {
-				['BackgroundTransparency'] = 1;
-			}):Play();
-		end)
-		temp.Arrow.Open.MouseEnter:Connect(function()
-			game:GetService("TweenService"):Create(temp.Arrow.IconMap, TweenInfo.new(0.1), {
-				['ImageColor3'] = Color3.fromRGB(200,200,200);
-			}):Play();
-		end)
-		temp.Arrow.Open.MouseLeave:Connect(function()
-			game:GetService("TweenService"):Create(temp.Arrow.IconMap, TweenInfo.new(0.1), {
-				['ImageColor3'] = Color3.fromRGB(255,255,255);
-			}):Play();
-		end)
-		temp.Arrow.Open.MouseButton1Down:Connect(function()
-			if temp.Holder.Visible then
-				temp.Holder.Visible = false
-				LoadIcon(nil,temp.Arrow,166)
-			else
-				temp.Holder.Visible = true
-				LoadIcon(nil,temp.Arrow,167)
-			end
-		end)
-		temp.InstanceName.Open.MouseButton1Down:Connect(function()
-			if temp.Holder.Visible then
-				temp.Holder.Visible = false
-				LoadIcon(nil,temp.Arrow,166)
-			else
-				temp.Holder.Visible = true
-				LoadIcon(nil,temp.Arrow,167)
-			end
-		end)
-	end
-	Explorer.Window.ExplorerWindow.CanvasSize = UDim2.new(0,(last.AbsolutePosition.X-Explorer.AbsolutePosition.X)+50+last.InstanceName.TextBounds.X,0,(20*#InstancesTable)+5)
+    Explorer.Window.ExplorerWindow:ClearAllChildren()
+    Explorer.Window.ExplorerWindow.CanvasSize = UDim2.new(0, 0, 0, 0)
+    Explorer.Warning.Visible = false
+    Explorer.Window.Visible = true
+    local InstancesTable = {}
+    local String = ""
+    for i in string.gmatch(obj:GetFullName(), ".") do
+        if i == "." then
+            InstancesTable[#InstancesTable + 1] = String
+            String = ""
+        else
+            String = String .. i
+        end
+    end
+    InstancesTable[#InstancesTable + 1] = String
+    local ClassTable = {}
+    local function Check(obj, pos)
+        if obj:FindFirstChild(InstancesTable[pos]) then
+            ClassTable[pos] = obj:FindFirstChild(InstancesTable[pos])
+            if InstancesTable[pos + 1] then
+                Check(obj:FindFirstChild(InstancesTable[pos]), pos + 1)
+            end
+        end
+    end
+    Check(game, 1)
+    local last
+    for i, v in pairs(InstancesTable) do
+        local temp = Supplies.ExplorerTemplate:Clone()
+        temp.Name = v
+        temp.InstanceName.Text = v
+        LoadIcon(((ClassTable[i] and ClassTable[i].ClassName) or "Folder"),
+                 temp.Icon)
+        if ClassTable[i] then
+            if #ClassTable[i]:GetChildren() > 0 then
+                temp.Arrow.Visible = true
+            else
+                temp.Arrow.Visible = false
+            end
+        end
+        if last then
+            temp.Parent = last.Holder
+        else
+            temp.Parent = Explorer.Window.ExplorerWindow
+        end
+        temp.BG.Size = UDim2.new(0, temp.InstanceName.TextBounds.X + 36, 1, 0)
+        temp.InstanceName.Size = UDim2.new(0,
+                                           temp.InstanceName.TextBounds.X + 10,
+                                           1, 0)
+        last = temp
+        temp.InstanceName.MouseEnter:Connect(
+            function()
+                game:GetService("TweenService"):Create(temp.BG,
+                                                       TweenInfo.new(0.1), {
+                    ['BackgroundTransparency'] = 0.5
+                }):Play();
+            end)
+        temp.InstanceName.MouseLeave:Connect(
+            function()
+                game:GetService("TweenService"):Create(temp.BG,
+                                                       TweenInfo.new(0.1), {
+                    ['BackgroundTransparency'] = 1
+                }):Play();
+            end)
+        temp.Arrow.Open.MouseEnter:Connect(
+            function()
+                game:GetService("TweenService"):Create(temp.Arrow.IconMap,
+                                                       TweenInfo.new(0.1), {
+                    ['ImageColor3'] = Color3.fromRGB(200, 200, 200)
+                }):Play();
+            end)
+        temp.Arrow.Open.MouseLeave:Connect(
+            function()
+                game:GetService("TweenService"):Create(temp.Arrow.IconMap,
+                                                       TweenInfo.new(0.1), {
+                    ['ImageColor3'] = Color3.fromRGB(255, 255, 255)
+                }):Play();
+            end)
+        temp.Arrow.Open.MouseButton1Down:Connect(
+            function()
+                if temp.Holder.Visible then
+                    temp.Holder.Visible = false
+                    LoadIcon(nil, temp.Arrow, 166)
+                else
+                    temp.Holder.Visible = true
+                    LoadIcon(nil, temp.Arrow, 167)
+                end
+            end)
+        temp.InstanceName.Open.MouseButton1Down:Connect(
+            function()
+                if temp.Holder.Visible then
+                    temp.Holder.Visible = false
+                    LoadIcon(nil, temp.Arrow, 166)
+                else
+                    temp.Holder.Visible = true
+                    LoadIcon(nil, temp.Arrow, 167)
+                end
+            end)
+    end
+    Explorer.Window.ExplorerWindow.CanvasSize =
+        UDim2.new(0,
+                  (last.AbsolutePosition.X - Explorer.AbsolutePosition.X) + 50 +
+                      last.InstanceName.TextBounds.X, 0,
+                  (20 * #InstancesTable) + 5)
 end
 
 local AllStuff = {}
 
 function MakeRemote(obj)
-	local temp = Supplies.RemoteTemplate:Clone()
-	temp.RemoteName.Text = obj.Name
-	LoadIcon(obj.ClassName,temp.Icon)
-	temp.Parent = Remotes
-	temp.Spy.Position = UDim2.new(0,25+temp.RemoteName.TextBounds.X,0,0)
-	temp.View.Position = UDim2.new(0,80+temp.RemoteName.TextBounds.X,0,0)
-	if temp.RemoteName.TextBounds.X >= BiggestR then
-		BiggestR = temp.RemoteName.TextBounds.X
-	end
-	RemotesToSpy[obj] = temp
-	AllStuff[temp] = obj
-	temp.Spy.MouseEnter:Connect(function()
-		game:GetService("TweenService"):Create(temp.Spy, TweenInfo.new(0.1), {
-			['BackgroundColor3'] = Color3.fromRGB(75,75,75);
-		}):Play();
-	end)
-	temp.Spy.MouseLeave:Connect(function()
-		game:GetService("TweenService"):Create(temp.Spy, TweenInfo.new(0.1), {
-			['BackgroundColor3'] = Color3.fromRGB(60, 60, 60);
-		}):Play();
-	end)
-	temp.View.MouseEnter:Connect(function()
-		game:GetService("TweenService"):Create(temp.View, TweenInfo.new(0.1), {
-			['BackgroundColor3'] = Color3.fromRGB(75,75,75);
-		}):Play();
-	end)
-	temp.View.MouseLeave:Connect(function()
-		game:GetService("TweenService"):Create(temp.View, TweenInfo.new(0.1), {
-			['BackgroundColor3'] = Color3.fromRGB(60, 60, 60);
-		}):Play();
-	end)
-	temp.Spy.MouseButton1Down:Connect(function()
-		if SpyingRemotes[obj] then
-			SpyingRemotes[obj] = nil
-			Spy(temp,false)
-		else
-			SpyingRemotes[obj] = true
-			Spy(temp,true)
-		end
-	end)
-	temp.View.MouseButton1Down:Connect(function()
-		if not ViewDB then
-			ViewDB = true
-			LoadExplorer(obj)
-			SwitchTab("Explorer",0.5)
-			wait(0.5)
-			ViewDB = false
-		end
-	end)
+    local temp = Supplies.RemoteTemplate:Clone()
+    temp.RemoteName.Text = obj.Name
+    LoadIcon(obj.ClassName, temp.Icon)
+    temp.Parent = Remotes
+    temp.Spy.Position = UDim2.new(0, 25 + temp.RemoteName.TextBounds.X, 0, 0)
+    temp.View.Position = UDim2.new(0, 80 + temp.RemoteName.TextBounds.X, 0, 0)
+    if temp.RemoteName.TextBounds.X >= BiggestR then
+        BiggestR = temp.RemoteName.TextBounds.X
+    end
+    RemotesToSpy[obj] = temp
+    AllStuff[temp] = obj
+    temp.Spy.MouseEnter:Connect(function()
+        game:GetService("TweenService"):Create(temp.Spy, TweenInfo.new(0.1), {
+            ['BackgroundColor3'] = Color3.fromRGB(75, 75, 75)
+        }):Play();
+    end)
+    temp.Spy.MouseLeave:Connect(function()
+        game:GetService("TweenService"):Create(temp.Spy, TweenInfo.new(0.1), {
+            ['BackgroundColor3'] = Color3.fromRGB(60, 60, 60)
+        }):Play();
+    end)
+    temp.View.MouseEnter:Connect(function()
+        game:GetService("TweenService"):Create(temp.View, TweenInfo.new(0.1), {
+            ['BackgroundColor3'] = Color3.fromRGB(75, 75, 75)
+        }):Play();
+    end)
+    temp.View.MouseLeave:Connect(function()
+        game:GetService("TweenService"):Create(temp.View, TweenInfo.new(0.1), {
+            ['BackgroundColor3'] = Color3.fromRGB(60, 60, 60)
+        }):Play();
+    end)
+    temp.Spy.MouseButton1Down:Connect(function()
+        if SpyingRemotes[obj] then
+            SpyingRemotes[obj] = nil
+            Spy(temp, false)
+        else
+            SpyingRemotes[obj] = true
+            Spy(temp, true)
+        end
+    end)
+    temp.View.MouseButton1Down:Connect(function()
+        if not ViewDB then
+            ViewDB = true
+            LoadExplorer(obj)
+            SwitchTab("Explorer", 0.5)
+            wait(0.5)
+            ViewDB = false
+        end
+    end)
 end
 
 local SpyingDB = false
-RemoteTab.Spys.Spyer.MouseButton1Down:Connect(function()
-	if not SpyingDB then
-		SpyingDB = true
-		game:GetService("TweenService"):Create(RemoteTab.Spys.Spyer, TweenInfo.new(0.1), {
-			['ImageColor3'] = Color3.fromRGB(215, 90, 74);
-		}):Play();
-		RemoteTab.Spys.Spyer.Words.Text = "Unspy All"
-		for i,v in pairs(Remotes:GetChildren()) do
-			if v:IsA("Frame") then
-				Spy(v,true)
-				if AllStuff[v] then
-					SpyingRemotes[AllStuff[v]] = true
-				end
-			end
-		end
-	else
-		SpyingDB = false
-		game:GetService("TweenService"):Create(RemoteTab.Spys.Spyer, TweenInfo.new(0.1), {
-			['ImageColor3'] = Color3.fromRGB(0, 170, 93);
-		}):Play();
-		RemoteTab.Spys.Spyer.Words.Text = "Spy All"
-		for i,v in pairs(Remotes:GetChildren()) do
-			if v:IsA("Frame") then
-				Spy(v,false)
-				if AllStuff[v] then
-					SpyingRemotes[AllStuff[v]] = nil
-				end
-			end
-		end
-	end
-end)
+RemoteTab.Spys.Spyer.MouseButton1Down:Connect(
+    function()
+        if not SpyingDB then
+            SpyingDB = true
+            game:GetService("TweenService"):Create(RemoteTab.Spys.Spyer,
+                                                   TweenInfo.new(0.1), {
+                ['ImageColor3'] = Color3.fromRGB(215, 90, 74)
+            }):Play();
+            RemoteTab.Spys.Spyer.Words.Text = "Unspy All"
+            for i, v in pairs(Remotes:GetChildren()) do
+                if v:IsA("Frame") then
+                    Spy(v, true)
+                    if AllStuff[v] then
+                        SpyingRemotes[AllStuff[v]] = true
+                    end
+                end
+            end
+        else
+            SpyingDB = false
+            game:GetService("TweenService"):Create(RemoteTab.Spys.Spyer,
+                                                   TweenInfo.new(0.1), {
+                ['ImageColor3'] = Color3.fromRGB(0, 170, 93)
+            }):Play();
+            RemoteTab.Spys.Spyer.Words.Text = "Spy All"
+            for i, v in pairs(Remotes:GetChildren()) do
+                if v:IsA("Frame") then
+                    Spy(v, false)
+                    if AllStuff[v] then
+                        SpyingRemotes[AllStuff[v]] = nil
+                    end
+                end
+            end
+        end
+    end)
 
 function LoadSpy()
-	Remotes:ClearAllChildren()
-	Supplies.RemoteGrid:Clone().Parent = Remotes
-	local function recur(obj)
-		for i,v in pairs(obj:GetChildren()) do
-			local suc, err = pcall(function()
-				v:GetChildren()
-			end)
-			if suc then
-				if RemoteIgnores[v.ClassName] and not Ignores[v.Name] then
-					MakeRemote(v)
-				end
-				recur(v)
-			end
-		end
-	end
-	recur(game)
-	UpdateRemotes()
+    Remotes:ClearAllChildren()
+    Supplies.RemoteGrid:Clone().Parent = Remotes
+    local function recur(obj)
+        for i, v in pairs(obj:GetChildren()) do
+            local suc, err = pcall(function() v:GetChildren() end)
+            if suc then
+                if RemoteIgnores[v.ClassName] and not Ignores[v.Name] then
+                    MakeRemote(v)
+                end
+                recur(v)
+            end
+        end
+    end
+    recur(game)
+    UpdateRemotes()
 end
-spawn(function()LoadSpy()end)
+spawn(function() LoadSpy() end)
 
 function CreateListener()
-	for i,v in pairs(game:GetChildren()) do
-		local suc, err = pcall(function()
-			v:GetChildren()
-		end)
-		if suc then
-			v.DescendantAdded:Connect(function(obj)
-				if RemoteIgnores[obj.ClassName] and not Ignores[obj.Name] then
-					MakeRemote(obj)
-					UpdateRemotes()
-				end
-			end)
-			v.DescendantRemoving:Connect(function(obj)
-				if RemoteIgnores[obj.ClassName] and not Ignores[obj.Name] then
-					RemotesToSpy[obj]:Destroy()
-					RemotesToSpy[obj] = nil
-					SpyingRemotes[obj] = nil
-				end
-			end)
-		end
-	end
+    for i, v in pairs(game:GetChildren()) do
+        local suc, err = pcall(function() v:GetChildren() end)
+        if suc then
+            v.DescendantAdded:Connect(function(obj)
+                if RemoteIgnores[obj.ClassName] and not Ignores[obj.Name] then
+                    MakeRemote(obj)
+                    UpdateRemotes()
+                end
+            end)
+            v.DescendantRemoving:Connect(
+                function(obj)
+                    if RemoteIgnores[obj.ClassName] and not Ignores[obj.Name] then
+                        RemotesToSpy[obj]:Destroy()
+                        RemotesToSpy[obj] = nil
+                        SpyingRemotes[obj] = nil
+                    end
+                end)
+        end
+    end
 end
-spawn(function()CreateListener()end)
+spawn(function() CreateListener() end)
 
 spawn(function()
-	while true do
-		for i = 0,100 do
-			Tabs.TabLine.BackgroundColor3 = Color3.fromHSV(i/100,0.75,0.75)
-			wait()
-		end
-	end
+    while true do
+        for i = 0, 100 do
+            Tabs.TabLine.BackgroundColor3 = Color3.fromHSV(i / 100, 0.75, 0.75)
+            wait()
+        end
+    end
 end)
 
 spawn(function()
-	while true do
-		Animate.Texture:TweenPosition(UDim2.new(-2,0,-2,0),"Out","Linear",Animate_Time,true)
-		Animate.Texture2:TweenPosition(UDim2.new(0,0,0,0),"Out","Linear",Animate_Time,true)
-		Animate.Texture3:TweenPosition(UDim2.new(-2,0,0,0),"Out","Linear",Animate_Time,true)
-		Animate.Texture4:TweenPosition(UDim2.new(0,0,-2,0),"Out","Linear",Animate_Time,true)
-		wait(Animate_Time)
-		Animate.Texture.Position = UDim2.new(2,0,2,0)
-		Animate.Texture3.Position = UDim2.new(0,0,2,0)
-		Animate.Texture4.Position = UDim2.new(2,0,0,0)
-		Animate.Texture2:TweenPosition(UDim2.new(-2,0,-2,0),"Out","Linear",Animate_Time,true)
-		Animate.Texture:TweenPosition(UDim2.new(0,0,0,0),"Out","Linear",Animate_Time,true)
-		Animate.Texture3:TweenPosition(UDim2.new(-2,0,0,0),"Out","Linear",Animate_Time,true)
-		Animate.Texture4:TweenPosition(UDim2.new(0,0,-2,0),"Out","Linear",Animate_Time,true)
-		wait(Animate_Time)
-		Animate.Texture2.Position = UDim2.new(2,0,2,0)
-		Animate.Texture3.Position = UDim2.new(0,0,2,0)
-		Animate.Texture4.Position = UDim2.new(2,0,0,0)
-	end
+    while true do
+        Animate.Texture:TweenPosition(UDim2.new(-2, 0, -2, 0), "Out", "Linear",
+                                      Animate_Time, true)
+        Animate.Texture2:TweenPosition(UDim2.new(0, 0, 0, 0), "Out", "Linear",
+                                       Animate_Time, true)
+        Animate.Texture3:TweenPosition(UDim2.new(-2, 0, 0, 0), "Out", "Linear",
+                                       Animate_Time, true)
+        Animate.Texture4:TweenPosition(UDim2.new(0, 0, -2, 0), "Out", "Linear",
+                                       Animate_Time, true)
+        wait(Animate_Time)
+        Animate.Texture.Position = UDim2.new(2, 0, 2, 0)
+        Animate.Texture3.Position = UDim2.new(0, 0, 2, 0)
+        Animate.Texture4.Position = UDim2.new(2, 0, 0, 0)
+        Animate.Texture2:TweenPosition(UDim2.new(-2, 0, -2, 0), "Out", "Linear",
+                                       Animate_Time, true)
+        Animate.Texture:TweenPosition(UDim2.new(0, 0, 0, 0), "Out", "Linear",
+                                      Animate_Time, true)
+        Animate.Texture3:TweenPosition(UDim2.new(-2, 0, 0, 0), "Out", "Linear",
+                                       Animate_Time, true)
+        Animate.Texture4:TweenPosition(UDim2.new(0, 0, -2, 0), "Out", "Linear",
+                                       Animate_Time, true)
+        wait(Animate_Time)
+        Animate.Texture2.Position = UDim2.new(2, 0, 2, 0)
+        Animate.Texture3.Position = UDim2.new(0, 0, 2, 0)
+        Animate.Texture4.Position = UDim2.new(2, 0, 0, 0)
+    end
 end)

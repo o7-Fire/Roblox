@@ -1,8 +1,8 @@
 game.StarterGui:SetCore("SendNotification", {
-Title = "Drag Fixed";
-Text = "You are able to drag now";
-Icon = "";
-Duration = 2;
+    Title = "Drag Fixed",
+    Text = "You are able to drag now",
+    Icon = "",
+    Duration = 2
 })
 wait(.6)
 local RobloxGui = Instance.new("ScreenGui")
@@ -45,7 +45,7 @@ local Text_10 = Instance.new("TextLabel")
 local Text_11 = Instance.new("TextLabel")
 local HDroblox = Instance.new("TextButton")
 
---Properties:
+-- Properties:
 
 RobloxGui.Name = "RobloxGui"
 RobloxGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -60,10 +60,10 @@ Main.Size = UDim2.new(0, 416, 0, 257)
 Main.Visible = false
 wait(1.2)
 game.StarterGui:SetCore("SendNotification", {
-Title = "OrPlayz Hub V3";
-Text = "Whitelisted!";
-Icon = "";
-Duration = 2;
+    Title = "OrPlayz Hub V3",
+    Text = "Whitelisted!",
+    Icon = "",
+    Duration = 2
 })
 Main.Visible = true
 
@@ -289,7 +289,7 @@ IPloggerTroll.Text = "Troll IP Logger"
 IPloggerTroll.TextColor3 = Color3.fromRGB(255, 255, 255)
 IPloggerTroll.TextSize = 14.000
 IPloggerTroll.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet('https://pastebin.com/rawjeGChNZJ'))()
+    loadstring(game:HttpGet('https://pastebin.com/rawjeGChNZJ'))()
 end)
 
 CarsonDance.Name = "Carson Dance"
@@ -317,7 +317,9 @@ CarDrift.Text = "Car Drift"
 CarDrift.TextColor3 = Color3.fromRGB(255, 255, 255)
 CarDrift.TextSize = 14.000
 CarDrift.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
+    loadstring(game:HttpGet(
+                   'https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',
+                   true))()
 end)
 
 Cop.Name = "Cop"
@@ -346,7 +348,7 @@ OrangeJustice.TextColor3 = Color3.fromRGB(255, 255, 255)
 OrangeJustice.TextSize = 14.000
 OrangeJustice.MouseButton1Click:Connect(function()
     loadstring(game:HttpGet(("https://pastebin.com/raw/yCrBkPaY"), true))()
-    end)
+end)
 
 Spider.Name = "Spider"
 Spider.Parent = ScriptsPage
@@ -373,13 +375,14 @@ AntiAFK.Text = "Anti Afk"
 AntiAFK.TextColor3 = Color3.fromRGB(255, 255, 255)
 AntiAFK.TextSize = 14.000
 AntiAFK.MouseButton1Click:Connect(function()
-    local VirtualUser=game:service'VirtualUser'
-game:service'Players'.LocalPlayer.Idled:connect(function()
-VirtualUser:CaptureController()
-VirtualUser:ClickButton2(Vector2.new())
-end)
+    local VirtualUser = game:service 'VirtualUser'
+    game:service 'Players'.LocalPlayer.Idled:connect(
+        function()
+            VirtualUser:CaptureController()
+            VirtualUser:ClickButton2(Vector2.new())
+        end)
 
-warn("Anti-Afk has Loaded")
+    warn("Anti-Afk has Loaded")
 end)
 
 HenryDance.Name = "Henry Dance"
@@ -499,24 +502,24 @@ HDroblox.MouseButton1Click:Connect(function()
 end)
 
 HomeBTN.MouseButton1Click:Connect(function()
-HomePage.Visible = true
-ScriptsPage.Visible = false
-CreditsPage.Visible = false
-HDroblox.Visible = false
+    HomePage.Visible = true
+    ScriptsPage.Visible = false
+    CreditsPage.Visible = false
+    HDroblox.Visible = false
 end)
 
 ScriptsBTN.MouseButton1Click:Connect(function()
-HomePage.Visible = false
-ScriptsPage.Visible = true
-CreditsPage.Visible = false
-HDroblox.Visible = true
+    HomePage.Visible = false
+    ScriptsPage.Visible = true
+    CreditsPage.Visible = false
+    HDroblox.Visible = true
 end)
 
 CreditsBTN.MouseButton1Click:Connect(function()
-HomePage.Visible = false
-ScriptsPage.Visible = false
-CreditsPage.Visible = true
-HDroblox.Visible = false
+    HomePage.Visible = false
+    ScriptsPage.Visible = false
+    CreditsPage.Visible = true
+    HDroblox.Visible = false
 end)
 
 local UIS = game:GetService("UserInputService")
@@ -528,11 +531,16 @@ function dragify(Frame)
     local dragPos = nil
     function updateInput(input)
         local Delta = input.Position - dragStart
-        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
-        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.30), {Position = Position}):Play()
+        local Position = UDim2.new(startPos.X.Scale,
+                                   startPos.X.Offset + Delta.X,
+                                   startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.30),
+                                               {Position = Position}):Play()
     end
     Frame.InputBegan:Connect(function(input)
-        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+        if (input.UserInputType == Enum.UserInputType.MouseButton1 or
+            input.UserInputType == Enum.UserInputType.Touch) and
+            UIS:GetFocusedTextBox() == nil then
             dragToggle = true
             dragStart = input.Position
             startPos = Frame.Position
@@ -544,15 +552,17 @@ function dragify(Frame)
         end
     end)
     Frame.InputChanged:Connect(function(input)
-        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+        if input.UserInputType == Enum.UserInputType.MouseMovement or
+            input.UserInputType == Enum.UserInputType.Touch then
             dragInput = input
         end
     end)
-    game:GetService("UserInputService").InputChanged:Connect(function(input)
-        if input == dragInput and dragToggle then
-            updateInput(input)
-        end
-    end)
+    game:GetService("UserInputService").InputChanged:Connect(
+        function(input)
+            if input == dragInput and dragToggle then
+                updateInput(input)
+            end
+        end)
 end
-loadstring(game:HttpGet(('https://pastebin.com/raw/QJaQ8L8G'),true))()
+loadstring(game:HttpGet(('https://pastebin.com/raw/QJaQ8L8G'), true))()
 dragify(Main)

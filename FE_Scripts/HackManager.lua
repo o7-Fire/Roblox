@@ -1,9 +1,6 @@
-
 -- gui made by Nexity
 -- Roblox Engine is doomed -Itzbenz
-
 -- Objects
-
 local abc = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local bar = Instance.new("Frame")
@@ -51,9 +48,9 @@ local iat = Instance.new("TextLabel")
 local mt_2 = Instance.new("TextLabel")
 local mt_3 = Instance.new("TextLabel")
 local mt_4 = Instance.new("TextLabel")
-local newtween = function(obj,props,speed,...)
-    local info = TweenInfo.new(speed,...); 
-    local tween = game:GetService("TweenService"):Create(obj,info,props);
+local newtween = function(obj, props, speed, ...)
+    local info = TweenInfo.new(speed, ...);
+    local tween = game:GetService("TweenService"):Create(obj, info, props);
     return tween:Play();
 end;
 
@@ -422,34 +419,33 @@ mt_4.TextSize = 10
 mt_4.TextWrapped = true
 
 armoredpatrol.MouseButton1Down:connect(function()
-	 loadstring(game:HttpGet("https://raw.githubusercontent.com/machport/machport.github.io/master/ArmoredPatrol.lua"))()
+    loadstring(game:HttpGet(
+                   "https://raw.githubusercontent.com/machport/machport.github.io/master/ArmoredPatrol.lua"))()
 end)
 chatbypass.MouseButton1Down:connect(function()
-	 loadstring(game:HttpGet("https://pastebin.com/raw/JFeVbTv6", true))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/JFeVbTv6", true))()
 end)
 opengift.MouseButton1Down:connect(function()
     local Remote = game.ReplicatedStorage.Resources.Remotes['Gift']
     Remote:InvokeServer(game.Players.LocalPlayer)
 end)
 opengift10.MouseButton1Down:connect(function()
-for count = 1, 10 do
-local Remote = game.ReplicatedStorage.Resources.Remotes['Gift']
-Remote:InvokeServer(game.Players.LocalPlayer)
-end
+    for count = 1, 10 do
+        local Remote = game.ReplicatedStorage.Resources.Remotes['Gift']
+        Remote:InvokeServer(game.Players.LocalPlayer)
+    end
 end)
 speed.MouseButton1Down:connect(function()
-	 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 32
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 32
 end)
 aimbot.MouseButton1Down:connect(function()
-	 loadstring(game:HttpGet("https://pastebin.com/raw/uw2P2fbY", true))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/uw2P2fbY", true))()
 end)
 reviz.MouseButton1Down:connect(function()
-	 loadstring(game:HttpGet("https://pastebin.com/raw/KNUzQPYS", true))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/KNUzQPYS", true))()
 end)
 fullbright.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://paste.ee/r/NRfmI/0", true))()
+    loadstring(game:HttpGet("https://paste.ee/r/NRfmI/0", true))()
 end)
-infammo.MouseButton1Down:connect(function()
-
-end)
+infammo.MouseButton1Down:connect(function() end)
 

@@ -47,10 +47,10 @@ ToTarget.TextScaled = true
 ToTarget.TextSize = 14.000
 ToTarget.TextWrapped = true
 ToTarget.MouseButton1Click:connect(function()
-if targetPoint then
-lastPoint = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
-game.Players.LocalPlayer.Character:MoveTo(targetPoint)
-end
+    if targetPoint then
+        lastPoint = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+        game.Players.LocalPlayer.Character:MoveTo(targetPoint)
+    end
 end)
 
 GoBack.Name = "GoBack"
@@ -68,11 +68,8 @@ GoBack.TextScaled = true
 GoBack.TextSize = 14.000
 GoBack.TextWrapped = true
 GoBack.MouseButton1Click:connect(function()
-if lastPoint then
-game.Players.LocalPlayer.Character:MoveTo(lastPoint)
-end
+    if lastPoint then game.Players.LocalPlayer.Character:MoveTo(lastPoint) end
 end)
-
 
 SetPos.Name = "SetPos"
 SetPos.Parent = Frame
@@ -89,5 +86,5 @@ SetPos.TextScaled = true
 SetPos.TextSize = 14.000
 SetPos.TextWrapped = true
 SetPos.MouseButton1Click:connect(function()
-targetPoint = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+    targetPoint = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
 end)

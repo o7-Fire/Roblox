@@ -3,9 +3,8 @@ Redwood Prison GUI Created By Nameless & 001
 
  / Please Read The TOS before using: https://pastebin.com/rGfVUegA
 
-]]--
-
---// GUI & Settings (You Can Edit)
+]] --
+-- // GUI & Settings (You Can Edit)
 _G.WALKSPEED = 100
 _G.JUMPPOWER = 100
 _G.GUICLICKID = "903267862"

@@ -1,1 +1,2 @@
-loadstring(game:HttpGet('https://raw.githubusercontent.com/bedra45/chetbypasser/main/chetbypass'))()
+loadstring(game:HttpGet(
+               'https://raw.githubusercontent.com/bedra45/chetbypasser/main/chetbypass'))()
