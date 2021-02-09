@@ -11,11 +11,7 @@
 * Execute
 
 # Free Script Executor
-- [MainDab](https://github.com/leonardssy/ProjectDab/blob/master/MainDab.zip?raw=true)
-- [Flame+](https://bit.ly/FlamePlus)
-- [VYZX](https://mega.nz/#!r7pAQRrD!4DwNSCMyjFtxDwyLfQBocOgdgRIv6qeAQnVRE5qSMV0)
-- [GR3NY V4](https://mega.nz/#!6nongDhY!EOspUuU-dcE8RHpvV5gJPghOHmujvoBZl-Q-CwWhrBs)
-- [R47$ploit V2](https://mega.nz/#!OlxXxLxC!TCgiJ5irRyPQ6CUmGorWLEfMaKF3ze1PXEtVK1qo4AE)
+- [Lynx](https://fsociety.us/lynx/downloads/)
 - [KRNL (best free one but have to go through 5 linkvertise for key)](https://cdn.krnl.rocks/krnl_bootstrapper.rar)
 
 # Paid Script Executor
@@ -24,6 +20,7 @@
 - [Sentinel (Free Trial or 15 dollars, paypal)](https://elymltd.selly.store/product/a6576d71)
 
 # V3rmillion profiles
+- [Itzbenz (Gamerrindo)](https://v3rmillion.net/member.php?action=profile&uid=1816836)
 - [Nexity (MrBlobFish13)](https://v3rmillion.net/member.php?action=profile&uid=711260)
 
 # Linkvertise Bypasser
