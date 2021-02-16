@@ -1,6 +1,6 @@
-![](https://img.shields.io/discord/767366198194864208)
+[![Discord](https://img.shields.io/discord/767366198194864208.svg?logo=discord&logoColor=white&logoWidth=20&labelColor=7289DA&label=Desolate Wasteland)](https://discord.gg/2tqguRj)  
 
-
+ 
 # Usage
 * Download script executor
 * Extract
@@ -51,7 +51,7 @@
 - Almost all of the scripts are not owned by o7
 - too lazy to add credits (sorry)
 
-https://discord.gg/2tqguRj
+
 
 <h4 align="center">Visitor's count :eyes:</h4>
 <p align="center"><img src="https://profile-counter.glitch.me/%7Bsketchyirishman%7D/count.svg" alt="sketchyirishman :: Visitor's Count" /></p>
