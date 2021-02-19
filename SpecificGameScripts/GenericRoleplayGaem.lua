@@ -1,4 +1,5 @@
 -- mm yes kill script
+-- made by Nexity#2106
 
 _G.enabled = true
 
