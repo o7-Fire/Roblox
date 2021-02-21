@@ -28,7 +28,6 @@
 - [Sentinel (Free Trial or 15 dollars, paypal)](https://elymltd.selly.store/product/a6576d71)
 
 # V3rmillion profiles
-- [Itzbenz (Gamerrindo)](https://v3rmillion.net/member.php?action=profile&uid=1816836)
 - [Nexity (MrBlobFish13)](https://v3rmillion.net/member.php?action=profile&uid=711260)
 
 # Linkvertise Bypasser
