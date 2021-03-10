@@ -19,7 +19,6 @@
 * Execute
 
 # Free Script Executor
-- [Lynx](https://fsociety.us/lynx/downloads/)
 - [KRNL (best free one but have to go through 5 linkvertise for key)](https://cdn.krnl.rocks/krnl_bootstrapper.rar)
 
 # Paid Script Executor
