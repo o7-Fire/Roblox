@@ -6,7 +6,8 @@ _G.Settings = {
 ['Intro'] = false,
 ['Keybind'] = 'P'
 }
-
+local playeraircraft = {}
+local hornpitch = {}
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/QPehPJ6m", true))()
 
 local Tab1 = Library:CreateTab('Tab 1')
@@ -25,14 +26,10 @@ local Tab2 = Library:CreateTab('Tab 2')
 Tab2:Label('Change All Horn Pitch')
 Tab2:Label('name example: Assbeater420Aircraft')
 Tab2:TextBox('Name', 'YourNameHere', function(output)
-    pcall(function()
-        local playeraircraft = game.Workspace[output]:GetChildren()
-    end)
+    playeraircraft = game.Workspace[output]:GetChildren()
 end)
 Tab2:TextBox('Pitch', 'Number', function(output)
-    pcall(function()
-        local hornpitch = output
-    end)
+    hornpitch = output
 end)
 Tab2:Button('Change', function()
     for i,v in pairs(playeraircraft) do
