@@ -38,3 +38,27 @@ Tab2:Button('Change', function()
         end
     end
 end)
+
+local Tab3 = Library:CreateTab('Tab 3')
+Tab3:Label('Teleport to Base')
+Tab3:Button('Refresh', function()
+    for i,v in pairs(game.CoreGui.ShadowLib.MainFrame['Tab 3']:GetChildren()) do
+        if v.ClassName == "ImageButton" then
+            if v.Title.Text == "Refresh" then
+                print("no")
+            else
+                v:Destroy()
+            end
+        end
+    end
+    for i,v in pairs(game.Workspace.BuildingZones:GetChildren()) do
+        if tostring(v.Owner.Value) == "nil" then
+            print("nil owner")
+        else
+            Tab3:Button(tostring(v.Owner.Value), function()
+                print(game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(v.Position.x, v.Position.y, v.Position.z - 75)
+            end)
+        end
+    end
+end)
