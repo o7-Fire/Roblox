@@ -9,14 +9,35 @@ _G.Settings = {
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/QPehPJ6m", true))()
 
-local Tab1 = Library:CreateTab('Tab1')
+local Tab1 = Library:CreateTab('Tab 1')
 Tab1:Label('Random Scripts')
 Tab1:Button('Ocean Map', function()
-local region = Region3.new(Vector3.new(-3750,-100,-2050), Vector3.new(2500,43,2700))
-region = region:ExpandToGrid(4)
-game.Workspace.Terrain:FillRegion(region, 4, Enum.Material.Water)
+    local region = Region3.new(Vector3.new(-3750,-100,-2050), Vector3.new(2500,43,2700))
+    region = region:ExpandToGrid(4)
+    game.Workspace.Terrain:FillRegion(region, 4, Enum.Material.Water)
 end)
 Tab1:Button('Gravity Gun', function()
-loadstring(game:HttpGet(('https://pastebin.com/raw/6cfa5Wxa'),true))()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/6cfa5Wxa'),true))()
 end)
 Tab1:Label('Made by Nexity#2106')
+
+local Tab2 = Library:CreateTab('Tab 2')
+Tab2:Label('Change All Horn Pitch')
+Tab2:Label('name example: Assbeater420Aircraft')
+Tab2:TextBox('Name', 'YourNameHere', function(output)
+    pcall(function()
+        local playeraircraft = game.Workspace[output]:GetChildren()
+    end)
+end)
+Tab2:TextBox('Pitch', 'Number', function(output)
+    pcall(function()
+        local hornpitch = output
+    end)
+end)
+Tab2:Button('Change', function()
+    for i,v in pairs(playeraircraft) do
+        if v.Name == "Horn" then
+            v.Configuration.Pitch.Value = hornpitch
+        end
+    end
+end)
