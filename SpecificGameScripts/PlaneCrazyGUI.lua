@@ -1,5 +1,6 @@
 -- no, this is not a copy script
 -- its just for fun. it doesnt ruin other people's experience
+-- made by Nexity#2106
 
 _G.Settings = {
 ['Name'] = 'Plane Crazy o7',
