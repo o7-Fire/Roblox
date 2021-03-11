@@ -24,7 +24,7 @@ Tab1:Label('Made by Nexity#2106')
 
 local Tab2 = Library:CreateTab('Tab 2')
 Tab2:Label('Change All Horn Pitch')
-Tab2:Label('name example: Assbeater420Aircraft')
+Tab2:Label('how name: YourNameHere + Aircraft')
 Tab2:TextBox('Name', 'YourNameHere', function(output)
     playeraircraft = game.Workspace[output]:GetChildren()
 end)
