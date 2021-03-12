@@ -117,6 +117,9 @@ Tab5:Button('Refresh', function()
                     if blocks.Name == "ExplosiveBlock" then
                         blocks.Decorate.CFrame = game.Players[tostring(v.Owner.Value)].Character.HumanoidRootPart.CFrame
                     end
+                    if blocks.Name == "ExplosiveBall" then
+                        blocks.Decorate.CFrame = game.Players[tostring(v.Owner.Value)].Character.HumanoidRootPart.CFrame
+                    end
                 end
             end)
         end
