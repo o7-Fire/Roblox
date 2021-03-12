@@ -3,7 +3,7 @@ _G.Settings = {
 ['Intro'] = false,
 ['Keybind'] = 'P'
 }
-local playeraircraft = {}
+
 local hornpitch = {}
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/QPehPJ6m", true))()
 
