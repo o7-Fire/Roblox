@@ -1,8 +1,3 @@
-
--- no, this is not a copy script
--- its just for fun. it doesnt ruin other people's experience
--- made by Nexity#2106
-
 _G.Settings = {
 ['Name'] = 'Plane Crazy o7',
 ['Intro'] = false,
@@ -86,7 +81,7 @@ Tab4:Button('Refresh', function()
                     pcall(function()
                         if blocks.Name == "Seat" then
                             blocks.Seat.CFrame = game.Players[tostring(v.Owner.Value)].Character.HumanoidRootPart.CFrame
-                            wait(0.5)
+                            wait(0.8)
                             blocks.Seat.CFrame = CFrame.new(blocks.Seat.Position.x, (blocks.Seat.Position.y-5000), blocks.Seat.Position.z)
                         end
                     end)
@@ -116,9 +111,11 @@ Tab5:Button('Refresh', function()
                 for i,blocks in pairs(game.Workspace[tostring(game.Players.LocalPlayer) .. 'Aircraft']:GetChildren()) do
                     if blocks.Name == "ExplosiveBlock" then
                         blocks.Decorate.CFrame = game.Players[tostring(v.Owner.Value)].Character.HumanoidRootPart.CFrame
+                        wait()
                     end
                     if blocks.Name == "ExplosiveBall" then
                         blocks.Decorate.CFrame = game.Players[tostring(v.Owner.Value)].Character.HumanoidRootPart.CFrame
+                        wait()
                     end
                 end
             end)
