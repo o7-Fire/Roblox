@@ -1,7 +1,3 @@
--- no, this is not a copy script
--- its just for fun. it doesnt ruin other people's experience
--- made by Nexity#2106
-
 _G.Settings = {
 ['Name'] = 'Plane Crazy o7',
 ['Intro'] = false,
@@ -28,15 +24,11 @@ Tab1:Label('Made by Nexity#2106')
 
 local Tab2 = Library:CreateTab('Tab 2')
 Tab2:Label('Change All Horn Pitch')
-Tab2:Label('how name: YourNameHere + Aircraft')
-Tab2:TextBox('Name', 'YourNameHere', function(output)
-    playeraircraft = game.Workspace[output]:GetChildren()
-end)
 Tab2:TextBox('Pitch', 'Number', function(output)
     hornpitch = output
 end)
 Tab2:Button('Change', function()
-    for i,v in pairs(playeraircraft) do
+    for i,v in pairs(for i,v in pairs(game.Workspace[tostring(game.Players.LocalPlayer) .. 'Aircraft']:GetChildren()) do) do
         if v.Name == "Horn" then
             v.Configuration.Pitch.Value = hornpitch
         end
@@ -68,10 +60,6 @@ end)
 
 local Tab4 = Library:CreateTab('Tab 4')
 Tab4:Label('Kill with seats')
-Tab4:Label('how name: YourNameHere + Aircraft')
-Tab4:TextBox('Name', 'YourNameHere', function(output)
-    playeraircraft = game.Workspace[output]:GetChildren()
-end)
 Tab4:Button('Refresh', function()
     for i,v in pairs(game.CoreGui.ShadowLib.MainFrame['Tab 4']:GetChildren()) do
         if v.ClassName == "ImageButton" then
@@ -87,7 +75,7 @@ Tab4:Button('Refresh', function()
             print("nil owner")
         else
             Tab4:Button(tostring(v.Owner.Value), function()
-                for c,blocks in pairs(playeraircraft) do
+                for i,v in pairs(game.Workspace[tostring(game.Players.LocalPlayer) .. 'Aircraft']:GetChildren()) do
                     pcall(function()
                         if blocks.Name == "Seat" then
                             blocks.Seat.CFrame = game.Players[tostring(v.Owner.Value)].Character.HumanoidRootPart.CFrame
