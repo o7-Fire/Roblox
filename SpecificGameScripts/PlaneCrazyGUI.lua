@@ -78,7 +78,7 @@ Tab4:Button('Refresh', function()
                     pcall(function()
                         if blocks.Name == "Seat" then
                             blocks.Seat.CFrame = game.Players[tostring(v.Owner.Value)].Character.HumanoidRootPart.CFrame
-                            wait(0.5)
+                            wait(0.8)
                             blocks.Seat.CFrame = CFrame.new(blocks.Seat.Position.x, (blocks.Seat.Position.y-5000), blocks.Seat.Position.z)
                         end
                     end)
