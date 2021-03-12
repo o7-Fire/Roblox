@@ -26,9 +26,6 @@
 - [Protosmasher (Free Trial or 15 dollars, paypal)](https://protosmasher.net/)
 - [Sentinel (Free Trial or 15 dollars, paypal)](https://elymltd.selly.store/product/a6576d71)
 
-# V3rmillion profiles
-- [Nexity (MrBlobFish13)](https://v3rmillion.net/member.php?action=profile&uid=711260)
-
 # Linkvertise Bypasser
 - 0: Install tampermonkey
 - 1: Download script from https://greasyfork.org/en/scripts/409156-linkvertise-bypass
