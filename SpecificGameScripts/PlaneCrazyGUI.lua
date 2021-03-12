@@ -57,8 +57,42 @@ Tab3:Button('Refresh', function()
             print("nil owner")
         else
             Tab3:Button(tostring(v.Owner.Value), function()
-                print(game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame)
                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(v.Position.x, v.Position.y, v.Position.z - 75)
+            end)
+        end
+    end
+end)
+
+local Tab4 = Library:CreateTab('Tab 4')
+Tab4:Label('Kill with seats')
+Tab4:Label('how name: YourNameHere + Aircraft')
+Tab4:TextBox('Name', 'YourNameHere', function(output)
+    playeraircraft = game.Workspace[output]:GetChildren()
+end)
+Tab4:Button('Refresh', function()
+    for i,v in pairs(game.CoreGui.ShadowLib.MainFrame['Tab 4']:GetChildren()) do
+        if v.ClassName == "ImageButton" then
+            if v.Title.Text == "Refresh" then
+                print("no")
+            else
+                v:Destroy()
+            end
+        end
+    end
+    for i,v in pairs(game.Workspace.BuildingZones:GetChildren()) do
+        if tostring(v.Owner.Value) == "nil" then
+            print("nil owner")
+        else
+            Tab4:Button(tostring(v.Owner.Value), function()
+                for c,blocks in pairs(playeraircraft) do
+                    pcall(function()
+                        if blocks.Name == "Seat" then
+                            blocks.Seat.CFrame = game.Players[tostring(v.Owner.Value)].Character.HumanoidRootPart.CFrame
+                            wait(0.5)
+                            blocks.Seat.CFrame = CFrame.new(blocks.Seat.Position.x, (blocks.Seat.Position.y-5000), blocks.Seat.Position.z)
+                        end
+                    end)
+                end
             end)
         end
     end
