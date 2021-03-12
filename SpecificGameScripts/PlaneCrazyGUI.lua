@@ -22,7 +22,7 @@ Tab1:Button('Gravity Gun', function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/6cfa5Wxa'),true))()
 end)
 Tab1:Button('Infinite Yield', function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/uMJkKp41'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 Tab1:Label('Made by Nexity#2106')
 
