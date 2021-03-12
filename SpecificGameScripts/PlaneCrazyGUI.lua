@@ -3,7 +3,6 @@ _G.Settings = {
 ['Intro'] = false,
 ['Keybind'] = 'P'
 }
-
 local hornpitch = {}
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/QPehPJ6m", true))()
 
@@ -28,7 +27,7 @@ Tab2:TextBox('Pitch', 'Number', function(output)
     hornpitch = output
 end)
 Tab2:Button('Change', function()
-    for i,v in pairs(for i,v in pairs(game.Workspace[tostring(game.Players.LocalPlayer) .. 'Aircraft']:GetChildren()) do) do
+    for i,v in pairs(game.Workspace[tostring(game.Players.LocalPlayer) .. 'Aircraft']:GetChildren()) do
         if v.Name == "Horn" then
             v.Configuration.Pitch.Value = hornpitch
         end
@@ -75,7 +74,7 @@ Tab4:Button('Refresh', function()
             print("nil owner")
         else
             Tab4:Button(tostring(v.Owner.Value), function()
-                for i,v in pairs(game.Workspace[tostring(game.Players.LocalPlayer) .. 'Aircraft']:GetChildren()) do
+                for i,blocks in pairs(game.Workspace[tostring(game.Players.LocalPlayer) .. 'Aircraft']:GetChildren()) do
                     pcall(function()
                         if blocks.Name == "Seat" then
                             blocks.Seat.CFrame = game.Players[tostring(v.Owner.Value)].Character.HumanoidRootPart.CFrame
