@@ -1,3 +1,8 @@
+
+-- no, this is not a copy script
+-- its just for fun. it doesnt ruin other people's experience
+-- made by Nexity#2106
+
 _G.Settings = {
 ['Name'] = 'Plane Crazy o7',
 ['Intro'] = false,
@@ -78,10 +83,37 @@ Tab4:Button('Refresh', function()
                     pcall(function()
                         if blocks.Name == "Seat" then
                             blocks.Seat.CFrame = game.Players[tostring(v.Owner.Value)].Character.HumanoidRootPart.CFrame
-                            wait(0.8)
+                            wait(0.5)
                             blocks.Seat.CFrame = CFrame.new(blocks.Seat.Position.x, (blocks.Seat.Position.y-5000), blocks.Seat.Position.z)
                         end
                     end)
+                end
+            end)
+        end
+    end
+end)
+
+local Tab5 = Library:CreateTab('Tab 5')
+Tab5:Label('Teleport TNT to player')
+Tab5:Button('Refresh', function()
+    for i,v in pairs(game.CoreGui.ShadowLib.MainFrame['Tab 5']:GetChildren()) do
+        if v.ClassName == "ImageButton" then
+            if v.Title.Text == "Refresh" then
+                print("no")
+            else
+                v:Destroy()
+            end
+        end
+    end
+    for i,v in pairs(game.Workspace.BuildingZones:GetChildren()) do
+        if tostring(v.Owner.Value) == "nil" then
+            print("nil owner")
+        else
+            Tab5:Button(tostring(v.Owner.Value), function()
+                for i,blocks in pairs(game.Workspace[tostring(game.Players.LocalPlayer) .. 'Aircraft']:GetChildren()) do
+                    if blocks.Name == "ExplosiveBlock" then
+                        blocks.Decorate.CFrame = game.Players[tostring(v.Owner.Value)].Character.HumanoidRootPart.CFrame
+                    end
                 end
             end)
         end
