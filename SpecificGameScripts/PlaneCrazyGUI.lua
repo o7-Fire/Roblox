@@ -1,3 +1,6 @@
+-- made by Nexity#2106
+-- no, this is not a copy script
+
 _G.Settings = {
 ['Name'] = 'Plane Crazy o7',
 ['Intro'] = false,
