@@ -36,8 +36,8 @@ tptobase:addTextbox("TP to Base", "NameHere", function(value, focusLost)
     end
 end)
 
-local tpstuff = page1:addSection("Other Stuff")
-tpstuff:addTextbox("Kill Player", "NameHere", function(value, focusLost)
+local otherstuff = page1:addSection("Other Stuff")
+otherstuff:addTextbox("Kill Player", "NameHere", function(value, focusLost)
     for i,v in pairs(game.Players:GetChildren()) do
         if (string.sub(string.lower(v.Name),1,string.len(value))) == string.lower(value) then
         value = v.Name
@@ -55,7 +55,7 @@ tpstuff:addTextbox("Kill Player", "NameHere", function(value, focusLost)
         end
     end
 end)
-tpstuff:addTextbox("TP Explosives to Player", "NameHere", function(value, focusLost)
+otherstuff:addTextbox("TP Explosives to Player", "NameHere", function(value, focusLost)
     for i,v in pairs(game.Players:GetChildren()) do
         if (string.sub(string.lower(v.Name),1,string.len(value))) == string.lower(value) then
         value = v.Name
@@ -75,6 +75,9 @@ tpstuff:addTextbox("TP Explosives to Player", "NameHere", function(value, focusL
             end)
         end
     end
+end)
+otherstuff:addButton('Bypass AntiCheat', function()
+    game.ReplicatedStorage.Remotes.KickEvent:Destroy()
 end)
 
 local tab2 = page2:addSection("")
