@@ -22,6 +22,11 @@ end)
 
 local tptobase = page1:addSection("Base TP")
 tptobase:addTextbox("TP to Base", "NameHere", function(value, focusLost)
+    for i,v in pairs(game.Players:GetChildren()) do
+        if (string.sub(string.lower(v.Name),1,string.len(value))) == string.lower(value) then
+        value = v.Name
+        end
+    end
     if focusLost then
         for i,v in pairs(game.Workspace.BuildingZones:GetChildren()) do
             if tostring(v.Owner.Value) == value then
@@ -33,6 +38,11 @@ end)
 
 local tpstuff = page1:addSection("Other Stuff")
 tpstuff:addTextbox("Kill Player", "NameHere", function(value, focusLost)
+    for i,v in pairs(game.Players:GetChildren()) do
+        if (string.sub(string.lower(v.Name),1,string.len(value))) == string.lower(value) then
+        value = v.Name
+        end
+    end
     if focusLost then
         for i,blocks in pairs(game.Workspace[tostring(game.Players.LocalPlayer) .. 'Aircraft']:GetChildren()) do
             pcall(function()
@@ -46,6 +56,11 @@ tpstuff:addTextbox("Kill Player", "NameHere", function(value, focusLost)
     end
 end)
 tpstuff:addTextbox("TP Explosives to Player", "NameHere", function(value, focusLost)
+    for i,v in pairs(game.Players:GetChildren()) do
+        if (string.sub(string.lower(v.Name),1,string.len(value))) == string.lower(value) then
+        value = v.Name
+        end
+    end
     if focusLost then
         for i,blocks in pairs(game.Workspace[tostring(game.Players.LocalPlayer) .. 'Aircraft']:GetChildren()) do
             pcall(function()
