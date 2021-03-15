@@ -40,7 +40,7 @@ tptobase:addTextbox("TP to Base", "NameHere", function(value, focusLost)
 end)
 
 local otherstuff = page1:addSection("Other Stuff")
-otherstuff:addTextbox("Kill Player", "NameHere", function(value, focusLost)
+otherstuff:addTextbox("Kill Player with Seats", "NameHere", function(value, focusLost)
     for i,v in pairs(game.Players:GetChildren()) do
         if (string.sub(string.lower(v.Name),1,string.len(value))) == string.lower(value) then
         value = v.Name
@@ -55,6 +55,23 @@ otherstuff:addTextbox("Kill Player", "NameHere", function(value, focusLost)
                     blocks.Seat.CFrame = CFrame.new(blocks.Seat.Position.x, (blocks.Seat.Position.y-5000), blocks.Seat.Position.z)
                 end
             end)
+        end
+    end
+end)
+otherstuff:addTextbox("Bring Player with Seats", "NameHere", function(value, focusLost)
+    for i,v in pairs(game.Players:GetChildren()) do
+        if (string.sub(string.lower(v.Name),1,string.len(value))) == string.lower(value) then
+        value = v.Name
+        end
+    end
+    if focusLost then
+        for i,blocks in pairs(game.Workspace[tostring(game.Players.LocalPlayer) .. 'Aircraft']:GetChildren()) do
+            if blocks.Name == "Seat" then
+                blocks.Seat.CFrame = game.Players[value].Character.HumanoidRootPart.CFrame
+                wait(0.8)
+                blocks.Seat.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+                break
+            end
         end
     end
 end)
@@ -80,7 +97,9 @@ otherstuff:addTextbox("TP Explosives to Player", "NameHere", function(value, foc
     end
 end)
 otherstuff:addButton('Bypass AntiCheat', function()
-    game.ReplicatedStorage.Remotes.KickEvent:Destroy()
+    pcall(function()
+        game.ReplicatedStorage.Remotes.KickEvent:Destroy()
+    end)
 end)
 
 local tab2 = page2:addSection("")
@@ -96,7 +115,5 @@ tab2:addButton('Infinite Yield', function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 tab2:addButton("Destroy this GUI", function()
-    pcall(function()
-        game.CoreGui["Plane Crazy o7 (Made by Nexity#2106)"]:Destroy()
-    end)
+    game.CoreGui["Plane Crazy o7 (Made by Nexity#2106)"]:Destroy()
 end)
