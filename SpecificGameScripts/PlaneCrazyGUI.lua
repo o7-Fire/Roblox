@@ -1,3 +1,6 @@
+-- made by Nexity#2106
+-- no, this is not a copy script
+
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua"))()
 local venyx = library.new("Plane Crazy o7 (Made by Nexity#2106)", 5013109572)
 local themes = {
