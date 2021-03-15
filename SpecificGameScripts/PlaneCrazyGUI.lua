@@ -75,6 +75,21 @@ otherstuff:addTextbox("Bring Player with Seats", "NameHere", function(value, foc
         end
     end
 end)
+otherstuff:addTextbox("Trap Player", "NameHere", function(value, focusLost)
+    for i,v in pairs(game.Players:GetChildren()) do
+        if (string.sub(string.lower(v.Name),1,string.len(value))) == string.lower(value) then
+        value = v.Name
+        end
+    end
+    if focusLost then
+        for i,blocks in pairs(game.Workspace[tostring(game.Players.LocalPlayer) .. 'Aircraft']:GetChildren()) do
+            if blocks.Name == "Seat" then
+                blocks.Seat.CFrame = game.Players[value].Character.HumanoidRootPart.CFrame
+                break
+            end
+        end
+    end
+end)
 otherstuff:addTextbox("TP Explosives to Player", "NameHere", function(value, focusLost)
     for i,v in pairs(game.Players:GetChildren()) do
         if (string.sub(string.lower(v.Name),1,string.len(value))) == string.lower(value) then
