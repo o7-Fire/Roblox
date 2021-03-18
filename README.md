@@ -19,7 +19,7 @@
 * Execute
 
 # Free Script Executor
-- [KRNL (best free one but have to go through 5 linkvertise for key)](https://cdn.krnl.rocks/krnl_bootstrapper.rar)
+
 
 # Paid Script Executor
 - [Synapse X (best one, 15-20 dollars, paypal or bitcoin)](https://x.synapse.to/)
