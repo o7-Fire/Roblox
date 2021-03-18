@@ -19,7 +19,7 @@
 * Execute
 
 # Free Script Executor
-
+- [Lynx (kinda cheap but works)](https://o7inc.ddns.net/armor/Lynx.exe)
 
 # Paid Script Executor
 - [Synapse X (best one, 15-20 dollars, paypal or bitcoin)](https://x.synapse.to/)
