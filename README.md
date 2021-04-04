@@ -8,7 +8,7 @@
 [![Discord](https://img.shields.io/discord/767366198194864208.svg?logo=discord&logoColor=white&logoWidth=20&labelColor=7289DA&label=Discord)](https://discord.gg/2tqguRj)
 [![Discord](https://img.shields.io/discord/767366198194864208.svg?logo=discord&logoColor=white&logoWidth=20&labelColor=7289DA&label=Discord)](https://discord.gg/2tqguRj)
 
-
+## This is now archived as I do not exploit anymore
 # Usage
 * Download script executor
 * Extract
